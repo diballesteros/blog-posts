@@ -12,11 +12,11 @@ For the sake of this article, the example I’m going to be creating is a **useT
 
 ### Building the hook
 
-First, let’s create the file **useToggle.ts** , and let’s build the skeleton for our hook. All hooks must begin with the word  **_use_**!
+First, let’s create the file **useToggle.ts** , and let’s build the skeleton for our hook. All hooks must begin with the word **_use_**!
 
 ![useToggle](https://cdn.hashnode.com/res/hashnode/image/upload/v1646568257917/QTX_6cPES.png)
 
-A toggle hook will typically just rely on toggling a boolean state from **true** to **false** and vice versa, however, to make it more complete let’s add some additional, _optional_, functionality to the hook where we can completely set it to **false** or  **true**.
+A toggle hook will typically just rely on toggling a boolean state from **true** to **false** and vice versa, however, to make it more complete let’s add some additional, _optional_, functionality to the hook where we can completely set it to **false** or **true**.
 
 Let’s create the state and the skeleton of the functions:
 
@@ -47,9 +47,3 @@ As a little extra we can add an initial state to the hook in case we want it to 
 And that’s it! Hooks are a great way to abstract logic used in react components.
 
 Here’s an example of the hook in action:
-
-More content at [Relatable Code](https://relatablecode.com).
-
-If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/diego-ballesteros-9468a7136/) or [Twitter](https://twitter.com/relatablecoder)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/step-by-step-guide-on-building-a-custom-react-hook-in-typescript/) _on March 6, 2022._

@@ -21,9 +21,9 @@ On the right, we have a much better visualization of how the page is actually la
 
 So to summarize the benefits we receive:
 
-- Increased clarity on the structure of the webpage
-- SEO benefits — web crawlers have an easier time parsing the website and understanding the content
-- Improved DX (Developer experience)
+-   Increased clarity on the structure of the webpage
+-   SEO benefits — web crawlers have an easier time parsing the website and understanding the content
+-   Improved DX (Developer experience)
 
 ### But how do I use it?
 
@@ -38,8 +38,8 @@ Some things to consider about the header tag: This should contain some of the < 
 The footer usually contains but is not limited to copyright information, sitemaps, or any other contact information.
 
 ```
-<header>This is a header</header> 
-<main>This is the main content</main> 
+<header>This is a header</header>
+<main>This is the main content</main>
 <footer>Footer</footer>
 ```
 
@@ -52,9 +52,9 @@ The **article** tag should contain independent content that does not require any
 ```
 <article>This is self contained content</article>
 
-<main> 
-    <section>Related Content</section> 
-    <section>Related Content</section> 
+<main>
+    <section>Related Content</section>
+    <section>Related Content</section>
 </main>
 ```
 
@@ -70,10 +70,4 @@ Here is a small example. Not the prettiest but the main focus are the tags:
 
 %[https://codesandbox.io/s/semantic-html-bt8er?fontsize=14&hidenavigation=1&theme=dark]
 
-If you want any more explanations regarding semantic HTML let me know in the comments below!
-
-More content at [Relatable Code](https://relatablecode.com).
-
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/diego-ballesteros-9468a7136/) or [Twitter](https://twitter.com/relatablecoder).
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/semantic-html-explained-and-how-to-use-it/) _on February 16, 2022._

@@ -30,7 +30,3 @@ This hook can just be directly called in the component with the necessary REM un
 ![Small example component](https://cdn.hashnode.com/res/hashnode/image/upload/v1642351928349/Cv-oJgYTi.png)
 
 And that's it! Let me know if this hook was of any use to you or if you have any other preferred way to use REM units with react-window or any other library that specifically requires PX units.
-
-More content at [Relatable Code](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-use-rem-units-with-react-window-with-a-custom-hook/) _on January 16, 2022._

@@ -18,7 +18,7 @@ First, let’s go ahead and install the necessary package:
 And let’s import it in the file where we want to use it:
 
 ```
-import * Three from "three"; 
+import * Three from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 ```
 
@@ -83,7 +83,3 @@ I obtained the model freely from the following site:
 And that’s it! Here is the full code and final result with everything all hooked up. Any model can be used. I encourage others to experiment with it and play around with the values!
 
 [https://codesandbox.io/embed/react-three-render3d-qobqy?fontsize=14&hidenavigation=1&theme=dark](https://codesandbox.io/embed/react-three-render3d-qobqy?fontsize=14&hidenavigation=1&theme=dark)
-
-More content at [Relatable Code](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-use-three-js-in-a-react-app-to-render-a-3d-model/) _on February 6, 2022._

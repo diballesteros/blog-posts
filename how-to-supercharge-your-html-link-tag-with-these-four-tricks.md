@@ -39,7 +39,7 @@ What is considered idle time? Per the official MDN docs:
 
 > _In the current implementation (Mozilla 1.2), idle time is determined using the_ _nsIWebProgressListener API. We attach a listener to the toplevel_ _nsIWebProgress object ("@mozilla.org/docloaderservice;1"). From this, we receive document start & stop notifications, and we approximate idle time as the period between the last document stop and the next document start. The last document stop notification occurs roughly when the onLoad handler would fire for the toplevel document. This is when we kick off prefetch requests. If a subframe contains prefetching hints, prefetching will not begin until the top-most frame and all its "child" frames finish loading._
 
-> [_https://developer.mozilla.org/en-US/docs/Web/HTTP/Link\_prefetching\_FAQ_](https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ)
+> [_https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ_](https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ)
 
 ### Link tag attribute: media
 
@@ -47,16 +47,16 @@ What is considered idle time? Per the official MDN docs:
 
 The link tags can contain a media attribute to specify what type of screen should be handling it:
 
-- all
-- print
-- screen
-- speech
-- braille (Deprecated)
-- embossed (Deprecated)
-- handheld (Deprecated)
-- projection (Deprecated)
-- tty (Deprecated)
-- tv (Deprecated)
+-   all
+-   print
+-   screen
+-   speech
+-   braille (Deprecated)
+-   embossed (Deprecated)
+-   handheld (Deprecated)
+-   projection (Deprecated)
+-   tty (Deprecated)
+-   tv (Deprecated)
 
 I’ll leave this [link](https://www.w3.org/TR/CSS21/media.html%23media-types) explaining more in detail what each property means. These can also make your pages more accessible. This [article of mine](https://relatablecode.com/make-your-website-more-accessible-with-these-responsive-design-tips/) goes more in-depth.
 
@@ -67,7 +67,7 @@ I’ll leave this [link](https://www.w3.org/TR/CSS21/media.html%23media-types) e
 However, this media attribute can also be used for different screen sizes and can be used in conjunction with other features on this list!
 
 ```html
-<link rel="preload" href="HUGE.png" as="image" media="(min-width: 601px)">
+<link rel="preload" href="HUGE.png" as="image" media="(min-width: 601px)" />
 ```
 
 ### Link tag attribute: alternate
@@ -77,7 +77,7 @@ Did you know you can provide alternate stylesheets to the user? The link tag pro
 For example:
 
 ```html
-<link href="styles.css" title="Main" rel="stylesheet" /> 
+<link href="styles.css" title="Main" rel="stylesheet" />
 <link href="alternate.css" title="Alternate" rel="alternate stylesheet" />
 ```
 
@@ -92,10 +92,6 @@ However, this has **limited compatibility** across browsers so don’t rely on t
 ### Conclusion
 
 Using these tips can definitely increase the usability of the website by several percentage points. A little optimization never hurt anyone.
-
-If you have any other way to take advantage of lesser-known features of HTML go ahead and mention it in the comments below!
-
-More content at [Relatable Code](https://relatablecode.com)
 
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/diego-ballesteros-9468a7136/) or [Twitter](https://twitter.com/relatablecoder).
 

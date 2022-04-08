@@ -1,6 +1,5 @@
 ## How to do an accessibility review for your website: Font
 
-
 In my previous post about reviewing accessibility, I covered a lot of the HTML-structure-based implementations you can do to make it more accessible, especially for screen readers!
 
 [Part 1](https://relatablecode.com/how-to-do-a-thorough-accessibility-review-for-your-website/)
@@ -25,7 +24,7 @@ The output:
 
 ![Text with different font sizes](https://cdn.hashnode.com/res/hashnode/image/upload/v1646828080948/CbZcetVe6.png)
 
-The EM and REM units have the same size as the EM unit takes the size from the parent div and the REM unit takes it from the root element (aka the **HTML**  Tag).
+The EM and REM units have the same size as the EM unit takes the size from the parent div and the REM unit takes it from the root element (aka the **HTML** Tag).
 
 Font size in general should not go below **0.875rem** which in most cases is the equivalent of 14px. Anything smaller and users will most likely have to zoom in to read the text comfortably.
 
@@ -83,8 +82,6 @@ Verdana:
 That about wraps up fonts for now! In the next part of this series I plan to cover images and what to do (and not do) to make them more accessible.
 
 Hopefully, this served as a good introduction to making your site’s font more accessible. Leave any additional tips or feedback in the comments below.
-
-More content at [Relatable Code](https://relatablecode.com)
 
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/diego-ballesteros-9468a7136/) or [Twitter](https://twitter.com/relatablecoder)
 

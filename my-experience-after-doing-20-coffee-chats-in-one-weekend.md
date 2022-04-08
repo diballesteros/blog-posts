@@ -36,8 +36,4 @@ This part of the cohort, the community, seems to be the best part. A lot of othe
 
 I’ll probably continue to write some articles regarding the most asked questions from these coffee chats. Let me know in the comments below if you ever had coffee chats and what your experience was like.
 
-More content at [Relatable Code](https://relatablecode.com/)
-
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/diego-ballesteros-9468a7136/) or [Twitter](https://twitter.com/relatablecoder)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/my-experience-after-doing-20-coffee-chats-in-one-weekend/) _on February 27, 2022._

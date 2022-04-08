@@ -23,7 +23,7 @@ There should be a section called material-icon-theme.folders.associations
 Inside we can start changing the folder associations
 
 ![Material Icon Theme settings.json](https://cdn.hashnode.com/res/hashnode/image/upload/v1649284607345/pUIDovuTs2.png)
- 
+
 I updated it to include cypress with the test folder association.
 
 For default images this can be used as a reference:
@@ -33,5 +33,3 @@ https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/images/f
 Now cypress will show up with the updated icon:
 
 ![New cypress icon](https://cdn.hashnode.com/res/hashnode/image/upload/v1649284608477/uEhtI5S_q.png)
-
-And that’s it! Let me know in the comments below if you have any other material icon theme customizations you use!

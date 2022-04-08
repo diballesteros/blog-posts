@@ -37,5 +37,3 @@ Looking at the result of the extracted type we can now use it however we wish or
 Here is the code sandbox to play around with the type and the Typescript documentation :
 
 [Documentation - Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#inferring-within-conditional-types)
-
-If you have any other way to extract a type from an array let me know in the comments below!

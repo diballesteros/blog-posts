@@ -1,6 +1,6 @@
 ## Dev Log: Nuzlocke Tracker — React Project Structure
 
-This is the first in a series where I chronicle my process of developing an online app. Firstly, I suppose should explain what exactly a **Nuzlocke Tracker**  is.
+This is the first in a series where I chronicle my process of developing an online app. Firstly, I suppose should explain what exactly a **Nuzlocke Tracker** is.
 
 In case you were living under a rock [Pokémon](https://www.pokemon.com) is a franchise that has a very popular handheld game series from [Nintendo](https://www.nintendo.com/). Typically throughout the game, you capture creatures called pocket monsters. There are pokémon of all types and sizes. Essentially you create a team of 6 of all these creatures, and go on an adventure through a fictional world all the while battling with other trainers.
 
@@ -27,7 +27,7 @@ I’ll most likely create a new post explaining the suite of options that GitHub
 
 [Cypress](https://www.cypress.io/) is an End-to-end testing library, here I maintain the various end-to-end tests for the website.
 
-### node\_modules
+### node_modules
 
 Installed dependencies from NPM
 
@@ -54,7 +54,7 @@ Configuration files for ESLINT, prettier, cypress, and Typescript
 
 License file, in this case, the MIT file. Github helps auto-generating the file.
 
-### CODE\_OF\_CONDUCT.md CONTRIBUTING.md README.md SECURITY.md
+### CODE_OF_CONDUCT.md CONTRIBUTING.md README.md SECURITY.md
 
 Auto-generated files from Github to help manage the open-source and security portion of the web app. As said before I’ll most likely make a follow-up post explaining how I set up my project completely on Github.
 
@@ -66,10 +66,8 @@ Full list of dependencies I used to implement the project. I’m a huge fan of T
 
 That's it for this post. If there's anything else you want to be explained about the project structure let me know!
 
-If you want to check out the current state of the app:   
+If you want to check out the current state of the app:  
 [https://nuzlocke.netlify.app/](https://nuzlocke.netlify.app/)
 
 Github repo:  
 [https://github.com/diballesteros/nuzlocke](https://github.com/diballesteros/nuzlocke)
-
-More content: [Relatable Code](https://relatablecode.com)

@@ -27,11 +27,3 @@ Follow through the steps and you’ll be able to begin the publishing process! D
 This is an example of my own personal app being published:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468714452/CidOjxmMh.png)
-
-If you try this out let me know how it goes in the comments below!
-
-More content at [Relatable Code](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-publish-a-pwa-to-the-ios-app-store/) _on November 28, 2021._
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468716058/51moMC9qKU.gif)

@@ -4,11 +4,11 @@
 
 PNPM is a package manager that I have seen floating around for quite some time now. It’s tagged as a “fast, disk space-efficient package manager”. But in what ways? Well, let’s take the quote straight from them as well.
 
-> Files inside node\_modules are linked from a single content addressable storage
+> Files inside node_modules are linked from a single content addressable storage
 
 > [_https://pnpm.io/_](https://pnpm.io/)
 
-Cool so all projects share the same node\_modules. But…. let’s make this more interesting. I’ll take a small folder I have with 5 projects or so. Hook it up to **pnpm** and see the size difference.
+Cool so all projects share the same node_modules. But…. let’s make this more interesting. I’ll take a small folder I have with 5 projects or so. Hook it up to **pnpm** and see the size difference.
 
 ### How to use PNPM
 
@@ -28,7 +28,7 @@ Alright, we have an initial size of 1.84GB on the disk. Let’s see how much we 
 
 ![size](https://cdn.hashnode.com/res/hashnode/image/upload/v1649247918244/lGqAOG-ei.gif)
 
-Took like 5 minutes for SSD to delete the node\_modules folders for those projects.
+Took like 5 minutes for SSD to delete the node_modules folders for those projects.
 
 Alright, now we can get started for real. In the terminal I just have to execute:
 
@@ -40,7 +40,7 @@ But it failed on the **postinstall** script phase, with the following error:
 
 ```
 │ gyp verb check python checking for Python executable "python2" in the PATH
-│ gyp verb `which` failed Error: not found: python2 
+│ gyp verb `which` failed Error: not found: python2
 │ gyp verb `which` failed at getNotFoundError (C
 ```
 
@@ -72,10 +72,6 @@ This was just a very surface-level overview of pnpm. [Their page](https://pnpm.i
 
 What’s your go-to package manager? Yarn, npm, pnpm? Something else entirely?
 
-More content at [Relatable Code](https://relatablecode.com)
-
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/relatablecode) or [Twitter](https://twitter.com/relatablecoder)
 
 Check out my free developer roadmap and weekly tech industry news in my [newsletter](https://relatablecode.substack.com/).
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/say-goodbye-to-yarn-and-say-hello-to-pnpm/) _on April 6, 2022._

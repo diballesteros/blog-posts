@@ -25,12 +25,12 @@ npm install zod typescript
 Make sure that in your tsconfig.json that the compiler has the strict option set to true.
 
 ```
-{ 
-    // ... 
-    "compilerOptions": { 
-        // ... 
-        "strict": true 
-    } 
+{
+    // ...
+    "compilerOptions": {
+        // ...
+        "strict": true
+    }
 }
 ```
 
@@ -59,5 +59,3 @@ And that’s it! It’s a very simple library to implement but you can see great
 Here is a small sandbox with an example of the code above. There are two buttons to test out both requests and how the schema parses the code.
 
 [https://codesandbox.io/embed/zod-type-check-09g3c?fontsize=14&hidenavigation=1&theme=dark](https://codesandbox.io/embed/zod-type-check-09g3c?fontsize=14&hidenavigation=1&theme=dark)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/supercharge-your-app-with-runtime-type-checking-using-zod/) _on February 13, 2022._

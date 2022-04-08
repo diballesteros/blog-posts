@@ -46,8 +46,8 @@ Then I import them into the configuration file and set the values inside the res
 A small example of a resource file (in JSON):
 
 ```
-{   
-    "about": "Über" 
+{
+    "about": "Über"
 }
 ```
 
@@ -94,9 +94,3 @@ Now, you can go ahead and start calling the localization keys using the namespac
 **SIDENOTE** : You can go ahead and set the language dynamically with another property inside the returned value of the **useTranslation** hook:
 
 ![Changing the language](https://cdn.hashnode.com/res/hashnode/image/upload/v1642957792740/tSiUC0H9F.png)
-
-If have any other way to configure the localization for your app or any feedback, leave it in the comments below!
-
-More content at [Relatable Code](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-set-up-localization-with-react-i18next/) _on January 23, 2022._

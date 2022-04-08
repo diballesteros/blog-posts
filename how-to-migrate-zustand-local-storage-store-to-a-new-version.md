@@ -25,7 +25,7 @@ The persist function wraps the store and automatically sets the values inside th
 
 An issue that can pop up while creating a store that is persisted to local storage is that the structure of the store can change in an update to the application. This can cause inconsistencies between what the store expects and what is currently persisted.
 
-This can, in the worst-case scenarios, cause errors that cause the application to crash. Yikes! In order to circumvent this problem, Zustand offers a migration function to transition a persisted store to the new  **version**.
+This can, in the worst-case scenarios, cause errors that cause the application to crash. Yikes! In order to circumvent this problem, Zustand offers a migration function to transition a persisted store to the new **version**.
 
 ### Scenario
 
@@ -57,9 +57,9 @@ export const useStore = create(persist(
 ))
 ```
 
-Where our fishes key in the state should directly link up to a fish that exist in the **AVAILABLE\_FISHES** constant.
+Where our fishes key in the state should directly link up to a fish that exist in the **AVAILABLE_FISHES** constant.
 
-However, we have a problem, if the object structure of the fish we save ever changes then the corresponding object in the persisted store will not update. For example, if our **AVAILABLE\_FISHES** constant now includes the color:
+However, we have a problem, if the object structure of the fish we save ever changes then the corresponding object in the persisted store will not update. For example, if our **AVAILABLE_FISHES** constant now includes the color:
 
 ```
 const FISHES = [
@@ -76,7 +76,7 @@ const FISHES = [
 ]
 ```
 
-The object saved in the fishes key no longer has all the information necessary. This can be easily remedied by migrating the store to a new structure and  **version**.
+The object saved in the fishes key no longer has all the information necessary. This can be easily remedied by migrating the store to a new structure and **version**.
 
 ### Migration
 
@@ -126,5 +126,3 @@ migrate: (persistedState) => {
 And with this the new object structure is correct and as soon as a user loads up the webpage it will automatically migrate its store to the new version.
 
 Any time a new change must be made it can easily be done by raising the version and updating the migrate function.
-
-And that’s it! Did you find this information useful? Have you been able to migrate the Zustand store? Let me know in the comments below.

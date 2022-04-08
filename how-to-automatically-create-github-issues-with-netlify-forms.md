@@ -44,11 +44,4 @@ We can even set up a label to identify the user-submitted issue and fill in the 
 
 ![Netlify](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468804005/zeIEnfXQf.png)
 
-
 Afterward, the Zap can be tested and created and everything is ready to go!
-
-If you have any questions let me know in the comments below!
-
-Find more content at [RelatableCode](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-automatically-create-github-issues-with-netlify-forms/) _on October 3, 2021._

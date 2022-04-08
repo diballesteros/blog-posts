@@ -42,9 +42,3 @@ Now if we go through the entire series of steps:
 No errors when sending in myself to the transformation function and now we can use the type anywhere else in the application!
 
 Here’s a little sandbox to play around with the typing:
-
-If you have any more tips regarding Typescript leave them in the comments below!
-
-More content at [Relatable Code](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/quick-ts-tips-extracting-a-return-type-from-a-function/) _on December 12, 2021._

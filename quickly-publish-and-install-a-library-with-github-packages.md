@@ -12,7 +12,7 @@ A **package** is a file or directory of code that has been privately or publical
 
 For example, one of the most popular packages in the world is [lodash](https://lodash.com/) which is a “JavaScript utility library delivering modularity, performance, & extras” ie most commonly used for the functions it provides to make our lives a whole lot easier.
 
-These packages typically tend to live in a folder called **node\_modules** when installed locally. _Yes, that folder that weighs a ton and should never be committed to Github Repository._
+These packages typically tend to live in a folder called **node_modules** when installed locally. _Yes, that folder that weighs a ton and should never be committed to Github Repository._
 
 ### Ok, is what is GitHub Packages then?
 
@@ -39,9 +39,9 @@ Sweet! Now we can initialize npm to generate our package.json
 You’ll be asked several questions about the new package. Remember to leave the name as:
 
 ```bash
-@YOUR-USERNAME/YOUR-REPOSITORY 
-... 
-test command: exit 0 
+@YOUR-USERNAME/YOUR-REPOSITORY
+...
+test command: exit 0
 ...
 ```
 
@@ -50,9 +50,9 @@ test command: exit 0
 Run the following commands:
 
 ```bash
-npm install 
-git add . 
-git commit -m "initialize npm package" 
+npm install
+git add .
+git commit -m "initialize npm package"
 git push
 ```
 
@@ -99,16 +99,16 @@ Now we can hook it up to NPM by creating a .npmrc file at the root directory and
 or by creating the following entry in the package.json
 
 ```
-"publishConfig": { 
-    "registry": "https://npm.pkg.github.com" 
+"publishConfig": {
+    "registry": "https://npm.pkg.github.com"
 },
 ```
 
 Last but not least we’ll push up all our changes to the repository:
 
 ```bash
-git add . 
-git commit -m "workflow to publish package" 
+git add .
+git commit -m "workflow to publish package"
 git push
 ```
 
@@ -135,7 +135,7 @@ Success!
 I’ll just bootstrap an app for the sake of the example with the following commands:
 
 ```bash
-npx create-react-app my-app 
+npx create-react-app my-app
 cd my-app
 ```
 
@@ -152,9 +152,9 @@ Replace @diballesteros with your GitHub user name or the one you used to create 
 And in our package.json we’ll include the new dependency:
 
 ```
-"dependencies": { 
-    ...other dependencies, 
-    "@diballesteros/useless-hooks": "^1.0.1" 
+"dependencies": {
+    ...other dependencies,
+    "@diballesteros/useless-hooks": "^1.0.1"
 }
 ```
 
@@ -175,10 +175,6 @@ In our App.js we can import it like any other library:
 ### Conclusion
 
 You can find the repository [here](https://github.com/diballesteros/useless-hooks). There are more publishes than in this article because I ran into a few issues while authenticating.
-
-Let me know in the comments below if you have any other tips for GitHub Packages.
-
-More content at [Relatable Code](https://relatablecode.com)
 
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/relatablecode) or [Twitter](https://twitter.com/relatablecoder)
 

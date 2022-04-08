@@ -35,10 +35,10 @@ This will cover mostly everything! So let’s create a .prettierrc (a prettier c
 Inside that file add the following rule:
 
 ```
-{ 
+{
     "importOrder": ["^components/(.*)$", "^[./]" ],
-    "importOrderSeparation": true, 
-    "importOrderSortSpecifiers": true 
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
 }
 ```
 
@@ -58,9 +58,7 @@ _Wow, that look’s much cleaner_ 👌🏼
 
 ### Conclusion
 
-Hopefully, with that, you have more organized imports in your projects! If you have any other tidbits on how to clean up code leave them in the comments below!
-
-More content at [Relatable Code](https://relatablecode.com)
+Hopefully, with that, you have more organized imports in your projects!
 
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/relatablecode) or [Twitter](https://twitter.com/relatablecoder)
 

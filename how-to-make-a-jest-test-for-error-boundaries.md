@@ -33,29 +33,25 @@ I made a slight modification to the component that is returned by the Error Boun
 The following is an example of how to create the test:
 
 ```
-import { render, screen } from '@testing-library/react';   
-import ErrorBoundary from './ErrorBoundary';   
-import '@testing-library/jest-dom'; 
+import { render, screen } from '@testing-library/react';
+import ErrorBoundary from './ErrorBoundary';
+import '@testing-library/jest-dom';
 
-describe('Error Boundary', () => {  
-  test('Error Boundary', () => {  
-    const ThrowError = () => {  
-      throw new Error('Test');  
+describe('Error Boundary', () => {
+  test('Error Boundary', () => {
+    const ThrowError = () => {
+      throw new Error('Test');
     };
 
-  render(  
-    <ErrorBoundary fallback={<ErrorBoundary />}>  
-      <ThrowError />  
-    </ErrorBoundary>  
+  render(
+    <ErrorBoundary fallback={<ErrorBoundary />}>
+      <ThrowError />
+    </ErrorBoundary>
   );
 
-expect(screen.getByTestId('errorboundary')).toBeVisible();  
-  });  
+expect(screen.getByTestId('errorboundary')).toBeVisible();
+  });
 });
 ```
 
 Essentially what we do is create a component whose sole purpose is to throw an error and make sure that it is correctly displayed. This is quite the basic test but the idea is that now you can expand upon it and test for anything else the error boundary may do!
-
-Find more content at [Relatable Code](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-make-a-jest-test-for-error-boundaries/) _on November 2, 2021._

@@ -66,10 +66,4 @@ Although, it’s something that’s probably been said before I think it’s wor
 
 No amount of tutorials will change this. So before opening up that next youtube video or possibly buying yet another Udemy course on the same topic, I urge you to consider just sitting down and coding something, _anything_.
 
-If you have any other tips for escaping tutorial hell let me know in the comments below!
-
-More content at [Relatable Code](https://relatablecode.com)
-
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/diego-ballesteros-9468a7136/) or [Twitter](https://twitter.com/relatablecoder)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-escape-tutorial-hell-the-100-fallacy/) _on March 13, 2022._

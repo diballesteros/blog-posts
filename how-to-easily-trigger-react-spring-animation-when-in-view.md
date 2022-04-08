@@ -14,12 +14,12 @@ First, let’s set up the page with just the visual portion:
 
 ```js
 <div className="App">
-      <div style={{ backgroundColor: "grey" }}>
-        <h1>This is my first page</h1>
-      </div>
-      <div style={{ backgroundColor: "white" }}>
-        <h2>This should come flying in</h2>
-      </div>
+	<div style={{ backgroundColor: 'grey' }}>
+		<h1>This is my first page</h1>
+	</div>
+	<div style={{ backgroundColor: 'white' }}>
+		<h2>This should come flying in</h2>
+	</div>
 </div>
 ```
 
@@ -28,62 +28,63 @@ I’ve added some styles to better differentiate between both sections.
 Now with the styles out of the way let’s set up the react-spring hook to make it fly in. We need to use useSpring to set up the animation and change the h2 element to an animated h2 element.
 
 ```js
- const headerStyle = useSpring({
-    config: { duration: 500 },
-    from: { opacity: 0, left: "-500px" },
-    to: {
-      opacity: 1,
-      left: "-500px"
-    }
-  });
+const headerStyle = useSpring({
+	config: { duration: 500 },
+	from: { opacity: 0, left: '-500px' },
+	to: {
+		opacity: 1,
+		left: '-500px',
+	},
+});
 
-  return (
-    <div className="App">
-      <div style={{ backgroundColor: "grey" }}>
-        <h1>This is my first page</h1>
-      </div>
-      <div style={{ backgroundColor: "white" }}>
-        <animated.h2 style={headerStyle}>
-          This should come flying in
-        </animated.h2>
-      </div>
-    </div>
-  );
+return (
+	<div className="App">
+		<div style={{ backgroundColor: 'grey' }}>
+			<h1>This is my first page</h1>
+		</div>
+		<div style={{ backgroundColor: 'white' }}>
+			<animated.h2 style={headerStyle}>
+				This should come flying in
+			</animated.h2>
+		</div>
+	</div>
+);
 ```
 
 Perfect. But wait our hook is missing some validations in order to transition between two styles. Luckily, modern browsers offer access to the Intersection Observer API. Without getting into the nitty-gritty, this API lets us detect elements that are visible.
 
 ## Intersection Observer
+
 Let’s go ahead and create the hook we’re going to use:
 
 ```js
 function useIntersectionObserver(
-  elementRef,
-  { threshold = 0, root = null, rootMargin = "0%", freezeOnceVisible = false }
+	elementRef,
+	{ threshold = 0, root = null, rootMargin = '0%', freezeOnceVisible = false }
 ) {
-  const [entry, setEntry] = useState();
+	const [entry, setEntry] = useState();
 
-  const frozen = entry?.isIntersecting && freezeOnceVisible;
+	const frozen = entry?.isIntersecting && freezeOnceVisible;
 
-  const updateEntry = ([entry]) => {
-    setEntry(entry);
-  };
+	const updateEntry = ([entry]) => {
+		setEntry(entry);
+	};
 
-  useEffect(() => {
-    const node = elementRef?.current;
-    const hasIOSupport = !!window.IntersectionObserver;
+	useEffect(() => {
+		const node = elementRef?.current;
+		const hasIOSupport = !!window.IntersectionObserver;
 
-    if (!hasIOSupport || frozen || !node) return;
+		if (!hasIOSupport || frozen || !node) return;
 
-    const observerParams = { threshold, root, rootMargin };
-    const observer = new IntersectionObserver(updateEntry, observerParams);
+		const observerParams = { threshold, root, rootMargin };
+		const observer = new IntersectionObserver(updateEntry, observerParams);
 
-    observer.observe(node);
+		observer.observe(node);
 
-    return () => observer.disconnect();
-  }, [elementRef, threshold, root, rootMargin, frozen]);
+		return () => observer.disconnect();
+	}, [elementRef, threshold, root, rootMargin, frozen]);
 
-  return entry;
+	return entry;
 }
 ```
 
@@ -127,17 +128,15 @@ isIntersecting is exactly what it says. When it’s visible and intersecting wit
 
 ```js
 const headerStyle = useSpring({
-    config: { duration: 500 },
-    from: { opacity: 0, left: "-500px" },
-    to: {
-      opacity: dataRef?.isIntersecting ? 1 : 0,
-      left: dataRef?.isIntersecting ? "0px" : "-500px"
-    }
-  });
+	config: { duration: 500 },
+	from: { opacity: 0, left: '-500px' },
+	to: {
+		opacity: dataRef?.isIntersecting ? 1 : 0,
+		left: dataRef?.isIntersecting ? '0px' : '-500px',
+	},
+});
 ```
 
 And that’s it! Here’s the working example:
 
 %[https://codesandbox.io/embed/trigger-react-spring-in-view-c5e76?fontsize=14&hidenavigation=1&theme=dark]
-
-If you liked the tutorial or have anything else you’d like to see let me know in the comments below.

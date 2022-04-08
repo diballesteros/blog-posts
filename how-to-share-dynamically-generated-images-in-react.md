@@ -98,5 +98,3 @@ Check out the end result with the function hooked up to the button:
 How the share shows up on mobile:
 
 ![Image description](https://cdn.hashnode.com/res/hashnode/image/upload/v1649276401796/ZG9_mu1rp.png)
-
-Let me know how you used the Web Share API in the comments below!

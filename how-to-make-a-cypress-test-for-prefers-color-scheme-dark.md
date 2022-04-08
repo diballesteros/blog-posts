@@ -26,9 +26,3 @@ Neat! Alright, the following parts of the Cypress test can directly look at the 
 ![Additional testing for CSS properties](https://cdn.hashnode.com/res/hashnode/image/upload/v1639932522223/nf_Mu10LyL.png)
 
 As an example, the app is the overall wrapper of my app. Gave it a data-testid and then I test for the color of my dark mode. This can be done several times over for all the different types of dark mode properties that are being set!
-
-And that’s it! If you have any questions or any other preferred methods of testing out dark mode let me know in the comments below!
-
-More content at [Relatable Code](https://relatablecode.com/)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-make-a-cypress-test-for-prefers-color-scheme-dark/) _on December 19, 2021._

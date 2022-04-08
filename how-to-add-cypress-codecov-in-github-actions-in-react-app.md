@@ -8,9 +8,9 @@ Using both of these tools in tandem can give useful feedback, especially if inco
 
 ### Requirements
 
-*   Basic knowledge of Github Actions
-*   Some Cypress tests have already been implemented
-*   React app ready to go and on Github as a repo! (Built with Create React App)
+-   Basic knowledge of Github Actions
+-   Some Cypress tests have already been implemented
+-   React app ready to go and on Github as a repo! (Built with Create React App)
 
 ### Instrumentation
 
@@ -18,27 +18,23 @@ Codecov must receive a code coverage report. This code coverage report can be cr
 
 First, let’s install the necessary dependencies:
 
-
 ```
 yarn add @cypress/code-coverage @cypress/instrument-cra --dev
-``` 
-
+```
 
 These two packages allow us to create and instrument our React app.
 
 In scripts let’s add two commands:
 
-
 ```
-"scripts": 
-    {  
-        // ...Other commands 
-        "local:instrument": "react-scripts -r @cypress/instrument-cra start", 
-        "ci:instrument": "CHOKIDAR\_USEPOLLING=1 react-scripts -r @cypress/instrument- 
-          cra start", 
+"scripts":
+    {
+        // ...Other commands
+        "local:instrument": "react-scripts -r @cypress/instrument-cra start",
+        "ci:instrument": "CHOKIDAR\_USEPOLLING=1 react-scripts -r @cypress/instrument-
+          cra start",
      },
-``` 
-
+```
 
 The first command is to instrument it locally to check out a coverage report locally, the second command will be the build command for the CI pipeline in Github Actions.
 
@@ -50,13 +46,12 @@ I recommend adding this new folder to the **.gitignore**
 
 If you need to exclude any files from the instrumentation this can be done in the package.json:
 
-
 ```
-"nyc": { 
+"nyc": {
     "exclude": \
-       [ "src/serviceWorker.ts", "src/serviceWorkerRegistration.ts", \] 
+       [ "src/serviceWorker.ts", "src/serviceWorkerRegistration.ts", \]
  },
-``` 
+```
 
 I’m personally excluding files associated with the service worker.
 
@@ -139,16 +134,8 @@ Now with a push, you’ll be able to see the workflow being executed in the Acti
 
 ![codecov](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468814578/mopJg0qnF.png)
 
-
 And in the respective pull requests you can see the reports:
 
 ![codecov](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468817497/KfzDlX8xX.png)
 
 ![codecov](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468820541/J_3lePcyd.png)
-
-
-If you have any more questions let me know in the comments below.
-
-Check out more content at [Relatable Code](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-add-cypress-codecov-in-github-actions-in-react-app/) _on September 19, 2021._

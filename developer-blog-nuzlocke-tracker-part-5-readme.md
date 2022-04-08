@@ -1,7 +1,5 @@
 ## Developer Blog: Nuzlocke Tracker — Part 5 — README
 
-### Developer Blog: Nuzlocke Tracker — Part 5 — README
-
 ![splash](https://cdn.hashnode.com/res/hashnode/image/upload/v1641742150770/O01NPO-hM.jpeg)
 _Photo by Studio Media on Unsplash_
 
@@ -26,10 +24,10 @@ I split this section up into two sections. A quick list of the main features of 
 I upload the necessary gifs and images and simply link them through the markdown:
 
 ```
-<!-- Example Gif --> 
-![til](https://cdn.hashnode.com/res/hashnode/image/upload/v1641742153586/vqNTttGTF.gif) 
+<!-- Example Gif -->
+![til](https://cdn.hashnode.com/res/hashnode/image/upload/v1641742153586/vqNTttGTF.gif)
 
-<!-- Example Image --> 
+<!-- Example Image -->
 ![Imgur Image](https://cdn.hashnode.com/res/hashnode/image/upload/v1641742155213/ksJzopDyo.png)
 ```
 
@@ -39,11 +37,11 @@ I upload the necessary gifs and images and simply link them through the markdown
 
 Afterward, I include several sections that help other contributors get quickly started with the app with the following sections:
 
-- Prerequisites —I quickly lay out the CLI commands to get started
-- Running the tests — Commands needed to double-check over the code and make sure everything is still A-okay
-- Roadmap — Just a small section linking to the issues page for the Github repository to know which issues can be worked on
-- Deployment — Brief summary on how the project is deployed to netlify
-- Versioning — Explanation of how versioning works. In this case, SemVer is used as it seems to be the industry standard
+-   Prerequisites —I quickly lay out the CLI commands to get started
+-   Running the tests — Commands needed to double-check over the code and make sure everything is still A-okay
+-   Roadmap — Just a small section linking to the issues page for the Github repository to know which issues can be worked on
+-   Deployment — Brief summary on how the project is deployed to netlify
+-   Versioning — Explanation of how versioning works. In this case, SemVer is used as it seems to be the industry standard
 
 ### Contributing
 
@@ -51,12 +49,8 @@ This is probably one of the more important sections of the entire README where y
 
 Github can help out with a generic format but I suggest making adjustments respective to your project.
 
-Ideally, this section should reference the CODE\_OF\_CONDUCT and any special steps needed for the pull request process.
+Ideally, this section should reference the CODE_OF_CONDUCT and any special steps needed for the pull request process.
 
 ### Miscellaneous
 
 At the very end, I added a small section to be able to contact me as well as some legal information as the app is pokemon related in nature.
-
-And that’s it! Let me know what you think about the README or if you have any other details that you include in your project’s READMEs
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/developer-blog-nuzlocke-tracker-part-5-readme/) _on January 9, 2022._

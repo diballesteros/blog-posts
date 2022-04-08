@@ -57,7 +57,3 @@ yarn lint --fix
 ```
 
 And it’ll fix all import sorting warnings.
-
-Share any configurations you use for sorting imports in the comments below!
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-quickly-configure-eslint-for-import-sorting/) _on October 10, 2021._

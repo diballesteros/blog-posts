@@ -43,9 +43,3 @@ Looking over the results of the error message we can see something along these l
 ![error message](https://cdn.hashnode.com/res/hashnode/image/upload/v1643569616081/zmfQDRYFz.png)
 
 This is taken from a personal app of mine but it now shows up in the flow!
-
-And that’s it! Let me know in the comments below any more tips with Sentry or bug tracking in general.
-
-More content at [Relatable Code](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-make-more-detailed-error-messages-with-sentry/) _on January 30, 2022._

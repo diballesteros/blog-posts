@@ -36,8 +36,4 @@ For the most part, the consensus seems to be that JavaScript is heading in the r
 
 As the old saying goes if it can be built in JavaScript, it will (or already has been).
 
-More content at [Relatable Code](https://relatablecode.com)
-
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/diego-ballesteros-9468a7136/) or [Twitter](https://twitter.com/relatablecoder)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/important-takeaways-from-the-state-of-javascript/) _on February 20, 2022._

@@ -44,9 +44,3 @@ Meanwhile, for an SVG it takes away all the empty space and essentially minifies
 ![SVG file](https://cdn.hashnode.com/res/hashnode/image/upload/v1640538024300/zDyzDDSPZ.png)
 
 Afterward, it’s just reviewing all the changes and accepting the PR merge into the main branch, as easy as that!
-
-Let me know how it goes in the comments below or if you have any other optimizations for images.
-
-More content at [RelatableCode](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-quickly-optimize-images-in-a-github-repository/) _on December 26, 2021._

@@ -10,10 +10,11 @@ Where possible I like to use CSS and not javascript as it tends to be considerab
 
 Luckily enough there exists a [pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child) called nth-of-child and nth-of-type. These can be used to dynamically apply a set of CSS styling to a specific number of children. How you may ask? Well the selector can be used in conjunction with simple math to plan it out
 
-Example:   
+Example:
+
 ```
-    li:nth-child(2) {   
-      color: red;   
+    li:nth-child(2) {
+      color: red;
     }
 ```
 
@@ -34,7 +35,3 @@ With this, we are grouping up the columns by 8 and only coloring the second grou
 Here is the provided example:
 
 [https://codesandbox.io/embed/jolly-nobel-27rtv?fontsize=14&hidenavigation=1&theme=dark](https://codesandbox.io/embed/jolly-nobel-27rtv?fontsize=14&hidenavigation=1&theme=dark)
-
-And that’s it! Let me know if you have any questions or if you have a preferred method of applying styling to columns/rows using a CSS grid!
-
-Find more articles at [Relatable Code](https://relatablecode.com)

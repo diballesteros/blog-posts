@@ -6,45 +6,34 @@ React-scroll is a library that streamlines the process of creating scroll intera
 
 ### Requirements
 
-- Sticky navbar
-- Nav section inside of the navbar with links
-- Links when clicked, scroll to the respective section
+-   Sticky navbar
+-   Nav section inside of the navbar with links
+-   Links when clicked, scroll to the respective section
 
 ### Code-along
 
 First, let's build out the header containing the navbar.
 
 ```js
-   <header>
-        <nav>
-          <ul>
-            <li>
-
-                ABOUT
-          
-            </li>
-            <li>
-                PROJECTS
-
-            </li>
-            <li>
-                BLOG
-            </li>
-            <li>
-                CONTACT ME
-            </li>
-          </ul>
-        </nav>
-   </header>
+<header>
+	<nav>
+		<ul>
+			<li>ABOUT</li>
+			<li>PROJECTS</li>
+			<li>BLOG</li>
+			<li>CONTACT ME</li>
+		</ul>
+	</nav>
+</header>
 ```
 
 Simple enough We have our header with a few sections that we should link to. Next, let’s have a look at what **react-scroll** has to offer us.
 
-According to the docs they have a **Link** component. This link component comes with 3 props that interest us: **activeClass** , **spy** and  **to**.
+According to the docs they have a **Link** component. This link component comes with 3 props that interest us: **activeClass** , **spy** and **to**.
 
-- activeClass will change the style of the list element in the navbar when the scroll is over the component
-- spy is how to tell react-scroll what element it should watch to apply the activeClass
-- to is what element it should scroll to, matched by ID
+-   activeClass will change the style of the list element in the navbar when the scroll is over the component
+-   spy is how to tell react-scroll what element it should watch to apply the activeClass
+-   to is what element it should scroll to, matched by ID
 
 Taking that into consideration let's add all the props.
 
@@ -71,7 +60,7 @@ Taking that into consideration let's add all the props.
             </li>
 ```
 
-Great! Now let's create the sections, they should link to parts that are right below our  **header**.
+Great! Now let's create the sections, they should link to parts that are right below our **header**.
 
 ```js
 <section id="about">ABOUT</section>
@@ -90,31 +79,29 @@ And with that, we’re done! All that's left is to add some styles so the sectio
 
 ```css
 section {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  font-size: 32px;
-  font-weight: bold;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	font-size: 32px;
+	font-weight: bold;
 }
 
 .nav {
-  display: flex;
-  align-items: center;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -5px;
-  z-index: 2;
-  height: 70px;
-  min-height: 70px;
-  width: calc(100% - 1.5rem);
-  background-color: #fff;
-  padding: 0 1rem;
-  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+	display: flex;
+	align-items: center;
+	position: -webkit-sticky;
+	position: sticky;
+	top: -5px;
+	z-index: 2;
+	height: 70px;
+	min-height: 70px;
+	width: calc(100% - 1.5rem);
+	background-color: #fff;
+	padding: 0 1rem;
+	box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
 ```
 
 Check out the full working example and the rest of the styles applied:
 
 %[https://codesandbox.io/embed/react-navbar-gzext?fontsize=14&hidenavigation=1&theme=dark]
-
-What other components would you like to see? Let me know in the comments below.

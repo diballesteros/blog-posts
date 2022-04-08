@@ -15,12 +15,12 @@ yarn add @sentry/react @sentry/tracing
 Sentry recommends initializing Sentry as early as possible. In a React app, this will commonly be the index.jsx/index.tsx
 
 ```
-import \* as Sentry from '@sentry/react';   
-import { Integrations } from '@sentry/tracing';   
-Sentry.init({   
-dsn: 'APPLICATION\_DSN',   
-integrations: \[new Integrations.BrowserTracing()\],   
-tracesSampleRate: 0.2,   
+import \* as Sentry from '@sentry/react';
+import { Integrations } from '@sentry/tracing';
+Sentry.init({
+dsn: 'APPLICATION\_DSN',
+integrations: \[new Integrations.BrowserTracing()\],
+tracesSampleRate: 0.2,
 });
 ```
 
@@ -39,24 +39,24 @@ Let’s select React. On the following screen, you’ll see a code snippet much 
 Now that we have Sentry initialized we can go ahead and test it out. My preferred method of integration is wrapping a Sentry Error Boundary around my components with a fallback component:
 
 ```
-import \* as Sentry from '@sentry/react'; 
+import \* as Sentry from '@sentry/react';
 
-<Sentry.ErrorBoundary fallback={<p>This is a fallback</p>}>      
-    <MyComponent />   
+<Sentry.ErrorBoundary fallback={<p>This is a fallback</p>}>
+    <MyComponent />
 </Sentry.ErrorBoundary>
 ```
 
 In order to force an error let’s create the following code in a component
 
 ```
-const errorMethod = () => { 
-    throw new Error('Error'); 
-}; 
+const errorMethod = () => {
+    throw new Error('Error');
+};
 
-return (   
-<button onClick={errorMethod} type="button">   
-Break the world 
-</button> 
+return (
+<button onClick={errorMethod} type="button">
+Break the world
+</button>
 );
 ```
 
@@ -68,10 +68,4 @@ After pressing the button you should see something along these lines on the Sent
 
 ![Sentry](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468764900/xfa1Z7ptd.png)
 
-Sentry issue entries
-
-And that’s it! Let me know how you feel about Sentry or error tracking in general in the comments below.
-
-Find more content at [Relatable Code](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-quickly-add-error-tracking-with-sentry/) _on October 24, 2021._
+_Sentry issue entries_

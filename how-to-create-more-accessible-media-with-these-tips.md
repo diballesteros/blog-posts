@@ -43,14 +43,14 @@ CSS-tricks for image replacement
 Did you know that HTML5 has built-in controls to handle audio and video?
 
 ```html
-<audio controls> 
-    <source /> 
-    <p>Help text if it doesn't load</p> 
-</audio> 
+<audio controls>
+	<source />
+	<p>Help text if it doesn't load</p>
+</audio>
 
-<video controls> 
-   <source /> 
-   <p>Help text if it doesn't load </p> 
+<video controls>
+	<source />
+	<p>Help text if it doesn't load</p>
 </video>
 ```
 
@@ -77,8 +77,8 @@ Here is an example of a WebVTT file:
 These can be linked directly to the track or in some cases the player:
 
 ```
-<video controls src="myvideo.mp4">    
-    <track default src="track.vtt"> 
+<video controls src="myvideo.mp4">
+    <track default src="track.vtt">
 </video>
 ```
 
@@ -102,8 +102,4 @@ Hopefully, these tips helped you out to further the cause of making sites more a
 
 Multimedia options are becoming increasingly more common as tons of content that are being consumed daily is being done so with video or audio-only options.
 
-More content at [Relatable Code](https://relatablecode.com)
-
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/diego-ballesteros-9468a7136/) or [Twitter](https://twitter.com/relatablecoder)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-create-more-accessible-media-with-these-tips/) _on March 20, 2022._

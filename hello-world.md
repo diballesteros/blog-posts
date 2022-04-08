@@ -4,9 +4,9 @@ At my job, I recently had to create a side drawer and due to specific constraint
 
 ### Requirements
 
-- Button to toggle the side drawer.
-- Secondly, animate the dimmed overlay and side drawer.
-- Finally, clicking on the overlay should hide the overlay and side drawer.
+-   Button to toggle the side drawer.
+-   Secondly, animate the dimmed overlay and side drawer.
+-   Finally, clicking on the overlay should hide the overlay and side drawer.
 
 ### Breaking it down
 
@@ -23,14 +23,14 @@ First and foremost, let's create the button that will handle the on-click event.
 
 ```js
 export default function App() {
-  const [show, setShow] = useState();
-  return (
-    <div className="App">
-      <button onClick={() => setShow((prevState) => !prevState)}>
-        Click me
-      </button>
-    </div>
-  );
+	const [show, setShow] = useState();
+	return (
+		<div className="App">
+			<button onClick={() => setShow((prevState) => !prevState)}>
+				Click me
+			</button>
+		</div>
+	);
 }
 ```
 
@@ -40,7 +40,7 @@ Easy enough. Now, let's start hooking up react-spring to the state we just creat
 
 **useTransition** is a hook provided to us by react-spring specifically for the task of tackling lifecycles!
 
-```js
+````js
   const transitions = useTransition(show, null, {
     from: { position: "fixed", opacity: 0, width: 0 },
     enter: { opacity: 1, width: 320 },
@@ -69,7 +69,7 @@ First, let’s code up the overlay; all we have to do is display a dimmed div.
           )
       )}
     </div>
-```
+````
 
 Transitions must be mapped over. The key is for react to differentiate between the different items in the array. Because we are only interested in the overlay for the moment we will pass the opacity we declared in the previous hook.
 
@@ -121,5 +121,3 @@ And with that, we’re done!
 Heres a working example of the code:
 
 %[https://codesandbox.io/embed/sidedrawer-react-spring-klkf2?fontsize=14&hidenavigation=1&theme=dark]
-
-Thank you for reading, and I have hoped you learned something from this. Do you have a preferred way to implement a side drawer?

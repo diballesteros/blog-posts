@@ -14,7 +14,7 @@ As defined by Wikipedia:
 
 > **_Impostor syndrome_** _(also known as_ **_impostor phenomenon_** _,_ **_impostorism_** _,_ **_fraud syndrome_** _or the_ **_impostor experience_** _) is a psychological pattern in which an individual doubts their skills, talents, or accomplishments and has a persistent internalized fear of being exposed as a “fraud”_
 
-> [_https://en.wikipedia.org/wiki/Impostor\_syndrome_](https://en.wikipedia.org/wiki/Impostor_syndrome)
+> [_https://en.wikipedia.org/wiki/Impostor_syndrome_](https://en.wikipedia.org/wiki/Impostor_syndrome)
 
 This can be quite an easy feeling to develop, especially in software engineering. It’s not hard to find others who you feel are _learning faster_ or _creating better products_.
 
@@ -61,10 +61,4 @@ Imposter Syndrome affects us all at various points in our life. It’s important
 
 Set future goals to acknowledge the progress you make!
 
-Leave any comments below about your experience with imposter syndrome and how you’ve dealt with it or haven’t dealt with it!
-
-More content at [Relatable Code](https://relatablecode.com)
-
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/diego-ballesteros-9468a7136/) or [Twitter](https://twitter.com/relatablecoder)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/what-is-imposter-syndrome-and-how-i-deal-with-it/) _on March 23, 2022._

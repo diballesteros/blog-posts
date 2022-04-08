@@ -32,8 +32,8 @@ First and foremost I **STRONGLY** recommend creating media queries with [EM and 
 Here is an example:
 
 ```
-@media (max-width: 46.875em) { 
-// ...apply specific rule 
+@media (max-width: 46.875em) {
+// ...apply specific rule
 }
 ```
 
@@ -59,10 +59,10 @@ _Windows animation settings_
 The animations used throughout the application should have a media query toning done or completely disabled the animation in cases where the user may have these options enabled/disabled.
 
 ```
-@media (prefers-reduced-motion) { 
-    .animation { 
-        // Or which ever name you have to turn off the animation animation-name: disabled; 
-    } 
+@media (prefers-reduced-motion) {
+    .animation {
+        // Or which ever name you have to turn off the animation animation-name: disabled;
+    }
 }
 ```
 
@@ -71,12 +71,12 @@ Another important media feature to consider for users that may have some sensiti
 Here is a pure CSS example:
 
 ```
-@media (prefers-color-scheme: dark) { 
-    // ...dark theme styling 
-} 
+@media (prefers-color-scheme: dark) {
+    // ...dark theme styling
+}
 
-@media(prefers-color-scheme: light) { 
-   // ...light theme styling 
+@media(prefers-color-scheme: light) {
+   // ...light theme styling
 }
 ```
 
@@ -91,8 +91,8 @@ I’ll leave this link explaining more in detail what each property means. But t
 This can also be applied with media properties:
 
 ```
-@media braille { 
-    // ...styles 
+@media braille {
+    // ...styles
 }
 ```
 
@@ -119,10 +119,4 @@ I hope some of these tips and tricks aid you in creating a more user-friendly an
 
 In the next article, I plan to cover accessible media (images, video, and audio).
 
-Leave down in the comments below any other accessibility tips when it comes to responsive design.
-
-More content at [Relatable Code](https://relatablecode.com)
-
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/diego-ballesteros-9468a7136/) or [Twitter](https://twitter.com/relatablecoder)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/make-your-website-more-accessible-with-these-responsive-design-tips/) _on March 16, 2022._

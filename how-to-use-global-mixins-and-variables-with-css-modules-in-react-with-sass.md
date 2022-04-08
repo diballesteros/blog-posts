@@ -1,6 +1,5 @@
 ## How to use global mixins and variables with CSS Modules in React with SASS
 
-
 These days it’s fairly common to use different CSS frameworks or libraries to handle styling in a React app such as Tailwind or styled-components. Typically I tend to prefer more traditional CSS with separated files. Outside of the arguments of why this may be preferred or not it’s still fairly useful to have a set of global mixins (SASS) and/or variables to keep it DRY.
 
 Starting an app with Create-React-App or next a fairly common option is to use [CSS Modules](https://github.com/css-modules/css-modules) which guarantees that the styles per component will not have any conflicts, however, it does mean it’s slightly different to access these global variables.
@@ -56,11 +55,3 @@ For example, I did something along these lines to share variables to use in medi
 Example stylesheet
 
 This is quite useful as I used a combination of CSS variables and SASS variables to reuse a lot of fixed sizes and paddings to keep everything standardized throughout the entire app.
-
-And that’s it! If you have any questions let me know in the comments below.
-
-More content at [Relatable Code](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-use-global-mixins-and-variables-with-css-modules-in-react-with-sass/) _on November 7, 2021._
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468750691/jcC68wZ5G.gif)

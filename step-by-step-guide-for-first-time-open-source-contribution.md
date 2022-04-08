@@ -1,13 +1,13 @@
 ## Step-By-Step guide for the first time Open Source contribution
 
-After doing a wide array of coffee chats, one of the most common questions was how to go about contributing to open source. So I decided to make an in-depth how-to from the very beginning to the very end.   
+After doing a wide array of coffee chats, one of the most common questions was how to go about contributing to open source. So I decided to make an in-depth how-to from the very beginning to the very end.  
 This is what I would do as a first-time open source contributor, including:
 
-- How to find and request the issue
-- How to fork and clone the repo
-- How to make the branch
-- How to make the pull request to the open source repo
-- How to go through the review process
+-   How to find and request the issue
+-   How to fork and clone the repo
+-   How to make the branch
+-   How to make the pull request to the open source repo
+-   How to go through the review process
 
 Small disclaimer: I’ll just assume you’re using VSCode however the process is similar with other IDEs.
 
@@ -67,8 +67,8 @@ or
 
 ![github](https://cdn.hashnode.com/res/hashnode/image/upload/v1646224578079/Sm-GeliNNy.png)
 
-Click on Github CLI (in case you need to download it [here it is](https://cli.github.com/)). Run the command in your terminal/command prompt. Just in case here’s a [quick guide](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/) on using the command prompt:  
-   
+Click on Github CLI (in case you need to download it [here it is](https://cli.github.com/)). Run the command in your terminal/command prompt. Just in case here’s a [quick guide](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/) on using the command prompt:
+
 Obviously, for the case of your open source project, you’d replace **stormkit-io/app-stormkit-io** with what you have
 
 ```
@@ -182,13 +182,7 @@ Congratulations if you’ve gotten this far you should officially be a contribut
 
 Hopefully, this gets your feet wet. Open source is an incredible thing for us developers and giving back is good! Something to keep in mind is that not all contributions will be bug fixes they may also include:
 
-- Creating tests
-- Improving or translating documentation
-
-Let me know in the comments below about your experiences with open source!
-
-More content at [Relatable Code](https://relatablecode.com).
+-   Creating tests
+-   Improving or translating documentation
 
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/diego-ballesteros-9468a7136/) or [Twitter](https://twitter.com/relatablecoder).
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/step-by-step-guide-for-first-time-open-source-contribution/) _on March 2, 2022._

@@ -17,7 +17,7 @@ Upon starting up the dev environment for my app I noticed that the compile-time 
 
 My first warning was about the source maps for third party libraries that don’t actually exist:
 
-Failed to parse source map from ...\node\_modules\html-to-image\src\applyStyleWithOptions.ts' file: Error: ENOENT: no such file or directory
+Failed to parse source map from ...\node_modules\html-to-image\src\applyStyleWithOptions.ts' file: Error: ENOENT: no such file or directory
 
 For the time being, I’m not aware of a way to avoid this with a setting so to omit the warnings in the terminal I decided to no longer output the source maps, specifically for the dev environment.
 
@@ -43,7 +43,7 @@ Luckily enough in the error message itself the file that was being affected was 
 This one was fairly simple to solve as the error message itself indicated the solution, just have to change the relative path to an absolute path. So this:
 
 ```
-@use 'styles/mixins'; 
+@use 'styles/mixins';
 @import 'styles/variables';
 ```
 
@@ -63,14 +63,8 @@ This error is in reference to ESLint, from what I could gather their internal ES
 I use a variety of extensions but I left it as follows, removing “react” and adding in “react-app”
 
 ```
-"extends": [ 
-"react-app", 
-...Other dependencies 
+"extends": [
+"react-app",
+...Other dependencies
 ]
 ```
-
-And that’s it! Let me know what you think of Create-React-App 5 if you use it or if you run into any other issues.
-
-More content at [Relatable Code](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/migrating-a-react-app-from-create-react-app-4-to-5/) _on January 2, 2022._

@@ -76,12 +76,12 @@ This is completely free and gives great insight into what could be quickly impro
 
 There are various amount of HTML tags that can help crawlers to understand the site and site content to improve SEO performance and indexing.
 
-- HTML Language: Indicates the primary language of the webpage
-- Meta Viewport: Gives the browser instructions on how to control the page’s dimensions and scaling
-- Meta Description: Provides a brief summary of a web page. Typically should be around 160 words. Include important keywords for crawlers to understand the site!
-- Link Canonical: if the site is a single page that can be navigated to by multiple sources this tag can be set to consolidate them.
-- Title — it is shown in the browser’s tab and is a primary way to for search engines to find the page, should typically be within 50–60 words
-- Optional: [Open Graph](https://ogp.me/) — Various social media sites such as Twitter and Facebook use the open graph protocol to understand your site and display it in different ways when linked to it.
+-   HTML Language: Indicates the primary language of the webpage
+-   Meta Viewport: Gives the browser instructions on how to control the page’s dimensions and scaling
+-   Meta Description: Provides a brief summary of a web page. Typically should be around 160 words. Include important keywords for crawlers to understand the site!
+-   Link Canonical: if the site is a single page that can be navigated to by multiple sources this tag can be set to consolidate them.
+-   Title — it is shown in the browser’s tab and is a primary way to for search engines to find the page, should typically be within 50–60 words
+-   Optional: [Open Graph](https://ogp.me/) — Various social media sites such as Twitter and Facebook use the open graph protocol to understand your site and display it in different ways when linked to it.
 
 Example:
 
@@ -112,7 +112,3 @@ I’ve included the auto-generated create-react-app tags for the favicon and var
 ### Content
 
 I’ve saved the best for last. The single most important thing for SEO performance is the actual page content! **Great** page content that is **relevant** and provides **value** is essential. If the page provides value it is incredibly more likely for it to be shared. This sharing creates some things called [backlinks](https://moz.com/learn/seo/backlinks) which crawlers take as basically an upvote for your webpage and greatly boosts its SEO performance.
-
-If you have any more tips or details on what I covered share them in the comments below.
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-improve-seo-performance-in-a-react-app/) _on August 13, 2021._

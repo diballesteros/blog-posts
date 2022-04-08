@@ -29,9 +29,3 @@ Example:
 ![Typescript Tip](https://cdn.hashnode.com/res/hashnode/image/upload/v1649268096464/qI_IuQZol.png)
 
 Small disclaimer, the Webshare API and several of its utility functions do not have widespread compatibility.
-
-Leave any questions or alternative implementations in the comments below!
-
-More content at [Relatable Code](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-mock-the-webshare-api-in-a-cypress-test/) _on December 5, 2021._

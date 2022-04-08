@@ -7,8 +7,8 @@ However, even after using all the fancy aria tags and semantic elements how can 
 For a lot of users that depend on well-done accessibility, keyboard navigation is the go-to method to using a website. The good news is though, that this can be tested quite easily. Let’s start by hitting the tab key and checking how it navigates through the content.
 
 ```
-<div tabindex="0">First Tabbable Element</div> 
-<div tabindex="0">Second Tabbable Element</div> 
+<div tabindex="0">First Tabbable Element</div>
+<div tabindex="0">Second Tabbable Element</div>
 <div tabindex="0">Third Tabbable Element</div>
 ```
 
@@ -48,10 +48,6 @@ And that’s it! As a final tip if you open up the developer tools and header ov
 
 ![Lighthouse Dev Tools](https://cdn.hashnode.com/res/hashnode/image/upload/v1645617644094/CmGrt2mmJ.png)
 
-Let me know in the comments below if you have any more tips in regards to accessibility!
-
 Side note: check out Google’s [guide](https://developers.google.com/web/fundamentals/accessibility/how-to-review?utm_source=lighthouse&utm_medium=lr) on accessibility for more details.
 
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/diego-ballesteros-9468a7136/) or [Twitter](https://twitter.com/relatablecoder)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-do-a-thorough-accessibility-review-for-your-website/) _on February 23, 2022._
