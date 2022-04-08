@@ -1,5 +1,5 @@
 ---
-title: Quick TS Tips: How to mock the Webshare API for a Cypress Test
+title: How to mock the Webshare API for a Cypress Test
 date: 2021-12-05
 description: How to make a Cypress test to mock the WebShare API and test the after-effects correctly. In this guide, we will check in case it does and doesn't load.
 categories:
