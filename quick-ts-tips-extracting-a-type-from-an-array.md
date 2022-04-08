@@ -1,5 +1,5 @@
 ---
-title: Quick TS Tips: How to extract a type from an array
+title: Quick TS Tips How to extract a type from an array
 date: 2021-11-21
 description: A quick and easy Typescript tutorial on how to extract a type from an array of types using conditional typing and the infer keyword
 categories:
