@@ -7,3 +7,21 @@ I have been developing a [pokémon related app](https://nuzlocke.netlify.app) wh
 Generating the image was easy enough, but typically most users would want to share that image directly to a social media site. In comes the [Web Share API](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share)! With this it can natively check for methods from the OS to share the site, so direct integration with Facebook, Twitter, Reddit, etc is unnecessary.
 
 **DISCLAIMER**: For the time being this API has limited compatibility across some operating systems and browsers. Check out https://caniuse.com/?search=navigator.share for the current state.
+
+## The Requirements
+
+-   Share button
+-   Dynamically generate an image from the HTML
+-   When clicking the share button share the image to a variety of different options
+
+## The Setup
+
+Before anything else, to dynamically generate the image a third-party library is necessary. In this tutorial, I will be using [html-to-image](https://www.npmjs.com/package/html-to-image). Cool! Now, let’s go ahead and start setting up the share button.
+
+```js
+<div>
+	<h1>Dynamically generate and share images</h1>
+	<button>Share</button>
+	<div>// ...Dynamically generated content</div>
+</div>
+```
