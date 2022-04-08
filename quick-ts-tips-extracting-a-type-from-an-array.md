@@ -19,7 +19,3 @@ If we wanted to extract the type of the array without it getting too verbose we 
 The following type allows us to extract it:
 
 It can be a little confusing at first glance but let’s break down every portion. First, we have our ArrayElement which is a [generic](https://www.typescriptlang.org/docs/handbook/2/generics.html) receiving the array itself as T.
-
-Here the infer keyword from typescript (which must be used with extends) to declaratively introduce a new generic type U based on the given array.
-
-Now let’s assume that the TStuff type is an array and we want to extract a singular TStuff. We could then supply the type of TStuff to ArrayElement<T>
