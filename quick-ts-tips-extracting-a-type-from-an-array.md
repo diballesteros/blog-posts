@@ -38,8 +38,4 @@ Here is the code sandbox to play around with the type and the Typescript documen
 
 [Documentation - Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#inferring-within-conditional-types)
 
-[https://codesandbox.io/s/array-type-extraction-1eohh](https://codesandbox.io/s/array-type-extraction-1eohh)
-
 If you have any other way to extract a type from an array let me know in the comments below!
-
-More content at [Relatable Code](https://relatablecode.com)
