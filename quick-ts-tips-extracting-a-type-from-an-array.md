@@ -24,7 +24,9 @@ Here the infer keyword from typescript (which must be used with extends) to decl
 
 Now let’s assume that the TStuff type is an array and we want to extract a singular TStuff. We could then supply the type of TStuff\[\] to ArrayElement<T>
 
+```
 type TNestedStuff = ArrayElement<TStuff\[\]>;
+```
 
 ### The result
 
@@ -41,7 +43,3 @@ Here is the code sandbox to play around with the type and the Typescript documen
 If you have any other way to extract a type from an array let me know in the comments below!
 
 More content at [Relatable Code](https://relatablecode.com)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/quick-ts-tips-extracting-a-type-from-an-array/) _on November 21, 2021._
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468726132/Eh3sGFXoU.gif)
