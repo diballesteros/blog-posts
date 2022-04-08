@@ -22,10 +22,10 @@ It can be a little confusing at first glance but let’s break down every portio
 
 Here the infer keyword from typescript (which must be used with extends) to declaratively introduce a new generic type U based on the given array.
 
-Now let’s assume that the TStuff type is an array and we want to extract a singular TStuff. We could then supply the type of TStuff\[\] to ArrayElement<T>
+Now let’s assume that the TStuff type is an array and we want to extract a singular TStuff. We could then supply the type of TStuff to ArrayElement<T>
 
 ```
-type TNestedStuff = ArrayElement<TStuff\[\]>;
+type TNestedStuff = ArrayElement<TStuff[]>;
 ```
 
 ### The result
