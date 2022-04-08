@@ -1,3 +1,11 @@
+---
+title: Simple styling using CSS grid for column groups
+date: 2021-11-15
+description: How to quickly code up simple styling for a CSS grid layout and pseudo-selectors to apply different styling to column groups
+categories:
+    - css
+---
+
 ## Simple styling using CSS grid for column groups
 
 Recently, I was tasked with creating a scheduler component. Although this article won’t go into full detail on how it’s being implemented one thing that I had to do was set up the layout (obviously).

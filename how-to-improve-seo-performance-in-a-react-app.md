@@ -1,3 +1,11 @@
+---
+title: How to improve SEO performance in a Create-React-App
+date: 2021-08-13
+description: How to improve SEO performance in a React app made by create-react-app with hosting configurations, metadata and integrations with various search engines
+categories:
+    - react
+---
+
 ## How to improve SEO performance in a Create-React-App
 
 I’m currently developing an [app](https://nuzlocke.netlify.app) where I’ve had to delve into the world of SEO (Search Engine Optimization) performance. React apps are at an inherent disadvantage when it comes to SEO because the content is rendered by Javascript and not always present. This can be circumvented with SSG/SSR with frameworks such as Next.js.

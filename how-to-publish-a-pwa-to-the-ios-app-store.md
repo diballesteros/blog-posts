@@ -1,3 +1,11 @@
+---
+title: Quick TS Tips: How to publish a PWA to the iOS App Store
+date: 2021-11-28
+description: A guide on how to generate the files necessary to upload and publish a progressive web app (PWA) to the iOS App Store using the PWABuilder
+categories:
+    - typescript
+---
+
 ## How to publish a PWA to the iOS App Store
 
 [PWABuilder.com](http://PWABuilder.com) is a site that allows you to link your PWA and generate files to publish it to various different app stores. I previously used it to create the files necessary to publish my app to the Google Playstore and the Windows Store. Recently an option was added for the App Store as well!

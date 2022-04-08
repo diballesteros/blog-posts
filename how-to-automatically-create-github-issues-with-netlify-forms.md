@@ -1,3 +1,11 @@
+---
+title: How to automatically create Github Issues with Netlify Forms
+date: 2021-10-03
+description: How to easily automatically create Github Issues with Netlify forms and an integration with Zapier in less than five minutes!
+categories:
+    - devops
+---
+
 ## How to automatically create Github Issues with Netlify Forms
 
 Deploying the web app is typically only one of the first parts of the process.

@@ -1,3 +1,11 @@
+---
+title: Important takeaways from the State of JavaScript
+date: 2022-02-20
+description: 2021's State of JavaScript Survey released its results and although there isn't anything ground-shattering there are a few important takeaways to keep in mind
+categories:
+    - react
+---
+
 ## Important takeaways from the State of JavaScript
 
 It’s that time of the year and the results are in for the “State of Javascript Survey”. Overall there wasn’t anything too ground-shattering but there are a few important takeaways to keep in mind for the coming year.

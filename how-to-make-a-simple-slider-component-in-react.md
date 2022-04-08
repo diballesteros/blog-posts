@@ -1,3 +1,11 @@
+---
+title: How to make a simple slider component in React
+date: 2021-10-17
+description: How to make a simple slider component in React using the native Html INPUT element and some CSS styling with a little bit of Javascript.
+categories:
+    - react
+---
+
 ## How to make a simple slider component in React
 
 A very common component to use in forms or to receive numeric input with a non-arbitrary range is to use a slider component. However, this can easily be done with some basic HTML and CSS whilst adding some react-y props.

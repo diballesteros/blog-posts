@@ -1,3 +1,11 @@
+---
+title: My experience after doing 20 Coffee Chats in one weekend
+date: 2022-02-27
+description: A short article describing my experience doing 20 coffee chats over a weekend with aspiring developers in the 100Devs community.
+categories:
+    - devlog
+---
+
 ## My experience after doing 20 Coffee Chats in one weekend
 
 ### Learning about 100Devs

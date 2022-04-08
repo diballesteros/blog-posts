@@ -1,3 +1,12 @@
+---
+title: Dev Log Nuzlocke Tracker – Part Two – Page Layout
+date: 2021-08-01
+description: Second in the series of a developer blog chronicling my experience creating a React app. In this part I explain the development of the initial page layout.
+categories:
+    - react
+    - devlog
+---
+
 ## Dev Log: Nuzlocke Tracker – Part Two – Page Layout
 
 This is the second part of the series where I chronicle the development process of a [Nuzlocke Tracker](https://nuzlocke.netlify.app/).

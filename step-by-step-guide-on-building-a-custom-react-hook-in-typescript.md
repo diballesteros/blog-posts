@@ -1,3 +1,12 @@
+---
+title: Step by Step guide on building a custom React hook in Typescript
+date: 2022-03-06
+description: A step-by-step guide on how to effectively create a custom React hook using Typescript. In this example, we go over how to create a useToggle hook.
+categories:
+    - react
+    - typescript
+---
+
 ## Step by Step guide on building a custom React hook in Typescript
 
 According to the results of the annual survey of the [State of Javascript](https://relatablecode.com/important-takeaways-from-the-state-of-javascript/), it doesn’t seem like React nor Typescript is going anywhere anytime soon so it’s worth taking some time and learning how they work!

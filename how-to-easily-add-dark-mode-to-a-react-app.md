@@ -1,3 +1,11 @@
+---
+title: How to easily add dark mode to a React app
+date: 2021-08-05
+description: How to easily add an animated dark mode to a React app with no third party libraries using just CSS varibles and react hooks.
+categories:
+    - react
+---
+
 ## How to easily add dark mode to a React app
 
 One of the most common UX requirements for an app is to add a way to toggle a dark mode for the user. Using React and just plain ol’ CSS this is easily achieved! This article assumes you have a basic understanding of React hooks.

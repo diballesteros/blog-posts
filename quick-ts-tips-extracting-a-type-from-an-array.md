@@ -1,3 +1,11 @@
+---
+title: Quick TS Tips: How to extract a type from an array
+date: 2021-11-21
+description: A quick and easy Typescript tutorial on how to extract a type from an array of types using conditional typing and the infer keyword
+categories:
+    - typescript
+---
+
 ## Quick TS Tips: How to extract a type from an array
 
 Recently I had to work with some automatically generated types whilst using GraphQL. This is a very extremely useful feature! However, it can be a little cumbersome to specifically reach different custom _nested_ types from the requests without it being too verbose.

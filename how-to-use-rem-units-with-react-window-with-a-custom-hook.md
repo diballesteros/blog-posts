@@ -1,3 +1,12 @@
+---
+title: How to use REM units with react-window with a custom hook
+date: 2022-01-16
+description: Short tutorial on how to use REM units with react-window by converting the necessary REM units to PX units with a custom hook.
+categories:
+    - react
+    - css
+---
+
 ## How to use REM units with react-window with a custom hook
 
 ![Window](https://cdn.hashnode.com/res/hashnode/image/upload/v1642351925382/-cUt_WlFz.jpeg)

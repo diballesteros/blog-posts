@@ -1,3 +1,11 @@
+---
+title: My experience migrating a React App from Create-React-App 4 to 5
+date: 2022-01-02
+description: How I migrated my react application from version four of create-react-app to version five and the errors and warnings I resolved along the way
+categories:
+    - react
+---
+
 ## My experience migrating a React App from Create-React-App 4 to 5
 
 ![React photo](https://cdn.hashnode.com/res/hashnode/image/upload/v1641140789138/CLjlg8feL.jpeg)

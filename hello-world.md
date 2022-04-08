@@ -1,3 +1,11 @@
+---
+title: How To Create a Stunning Side Drawer with React-spring
+date: 2021-07-23
+description: How to create react and react-spring to create a stunning side drawer component using typescript. Includes an overlay and animations.
+categories:
+    - react
+---
+
 ## How To Create a Stunning Side Drawer With React-spring
 
 At my job, I recently had to create a side drawer and due to specific constraints had to create it using react-spring.

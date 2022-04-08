@@ -1,3 +1,11 @@
+---
+title: How to quickly sort imports with Prettier
+date: 2022-03-30
+description: Having disorganized imports can make it harder to sift through code or just makes our code unappealing. Prettier can help us sort and order imports.
+categories:
+    - tooling
+---
+
 ## How to quickly sort imports with Prettier
 
 ### Introduction

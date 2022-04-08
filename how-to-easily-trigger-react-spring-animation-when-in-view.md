@@ -1,3 +1,11 @@
+---
+title: How to easily trigger react-spring animation when in view
+date: 2021-08-27
+description: How to trigger a react-spring animation when in view using React hooks. Using Intersection Observer and useSpring create a seamless animation when on screen
+categories:
+    - react
+---
+
 ## How to easily trigger react-spring animation when in view
 
 [react-spring](https://react-spring.io/) is a library to easily create and integrate animations in a React app. A possible use-case of the library is triggering an animation only when a particular ref or component is in view. In this tutorial, I’ll cover how to set up react-spring and the hooks necessary!

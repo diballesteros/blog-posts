@@ -1,4 +1,12 @@
-## How to quickly add error tracking with Sentry — Relatable Code
+---
+title: How to quickly add error tracking with Sentry
+date: 2021-10-24
+description: A short tutorial on how to quickly and easily add error tracking and performance monitoring with the Sentry library in a React app
+categories:
+    - react
+---
+
+## How to quickly add error tracking with Sentry 
 
 [Sentry](https://sentry.io/) is an error tracking and performance monitoring library that can be quickly hooked up to any existing project. This is especially useful to detect a considerable amount of bugs and can be easily integrated into a React app.
 

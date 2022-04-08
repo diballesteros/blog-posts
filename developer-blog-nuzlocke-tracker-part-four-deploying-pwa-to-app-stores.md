@@ -1,3 +1,12 @@
+---
+title: Dev Log Nuzlocke Tracker — Part Four — Deploying PWA to App Stores
+date: 2021-09-26
+description: How to easily deploy web app as a PWA (Progressive Web App) to the Google Playstore, Microsoft Store and Amazon Appstore using PWABuilder.
+categories:
+    - devlog
+    - devops
+---
+
 ## Dev Log: Nuzlocke Tracker — Part Four — Deploying PWA to App Stores
 
 This is the fourth part in a series where I describe my experience developing an online web app. After several months of deploying various changes to the web app and receiving all kinds of feedback (mostly from Reddit) I had gotten several people that were interested in a native app version (iOS/Android)

@@ -1,3 +1,11 @@
+---
+title: How to do an accessibility review for your website Font
+date: 2022-03-09
+description: How to do a thorough accessibility review for your website. In this article, we cover how to handle font size, font color, and font style.
+categories:
+    - accessibility
+---
+
 ## How to do an accessibility review for your website: Font
 
 In my previous post about reviewing accessibility, I covered a lot of the HTML-structure-based implementations you can do to make it more accessible, especially for screen readers!

@@ -1,3 +1,11 @@
+---
+title: How to create more accessible media with these tips
+date: 2022-03-20
+description: Images, audio, and video are becoming more common ways to consume content on the web. Use these tips to make sure everyone can enjoy accessible media!
+categories:
+    - accessibility
+---
+
 ## How to create more accessible media with these tips
 
 ### Introduction

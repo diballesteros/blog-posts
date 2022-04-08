@@ -1,3 +1,12 @@
+---
+title: How to use global mixins and variables with CSS Modules in React with SASS
+date: 2021-11-07
+description: How to easily create and use global SASS variables and mixins in a React app and import it in any other *.module.scss stylesheet
+categories:
+    - css
+    - react
+---
+
 ## How to use global mixins and variables with CSS Modules in React with SASS
 
 These days it’s fairly common to use different CSS frameworks or libraries to handle styling in a React app such as Tailwind or styled-components. Typically I tend to prefer more traditional CSS with separated files. Outside of the arguments of why this may be preferred or not it’s still fairly useful to have a set of global mixins (SASS) and/or variables to keep it DRY.

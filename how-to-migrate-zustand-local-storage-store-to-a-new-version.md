@@ -1,3 +1,11 @@
+---
+title: How to migrate Zustand local storage store to a new version
+date: 2021-08-19
+description: How to improve SEO performance in a React app made by create-react-app with hosting configurations, metadata and integrations with various search engines
+categories:
+    - react
+---
+
 ## How to migrate Zustand local storage store to a new version
 
 [Zustand](https://github.com/pmndrs/zustand) is a state-management solution for React apps. For anyone looking into a state manager that is low on boilerplate, very intuitive, and highly performant then I highly recommend using it. [I personally love it](https://relatablecode.com/developer-blog-nuzlocke-tracker-part-one-react-project-structure/).

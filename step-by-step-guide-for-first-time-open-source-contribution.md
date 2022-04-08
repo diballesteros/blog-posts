@@ -1,3 +1,11 @@
+---
+title: Step-By-Step guide for the first time Open Source contribution
+date: 2022-03-02
+description: A step-by-step guide on how to find a list of issues for open source projects, choose one, make your first open-source contribution and get it approved.
+categories:
+    - devlog
+---
+
 ## Step-By-Step guide for the first time Open Source contribution
 
 After doing a wide array of coffee chats, one of the most common questions was how to go about contributing to open source. So I decided to make an in-depth how-to from the very beginning to the very end.  

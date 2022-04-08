@@ -1,3 +1,11 @@
+---
+title: How to make a Cypress test for prefers-color-scheme dark
+date: 2021-12-19
+description: Blog post on how to quickly make a cypress end-to-end test for checking if the dark mode styles are applied if the user has set prefers-color-scheme dark.
+categories:
+    - testing
+---
+
 ## How to make a Cypress test for prefers-color-scheme: dark
 
 ![Darkmode](https://cdn.hashnode.com/res/hashnode/image/upload/v1639932516028/v5wJOpkTs.jpeg)

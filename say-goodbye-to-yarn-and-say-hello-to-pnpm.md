@@ -1,3 +1,11 @@
+---
+title: Say goodbye to Yarn and say hello to PNPM
+date: 2022-04-06
+description: A short article on my experience using PNPM. I compare the size difference to the files before and after installing PNPM.
+categories:
+    - tooling
+---
+
 ## Say goodbye to Yarn and say hello to PNPM
 
 ### Introduction

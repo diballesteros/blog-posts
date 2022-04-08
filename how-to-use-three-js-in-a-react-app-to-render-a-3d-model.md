@@ -1,3 +1,11 @@
+---
+title: How to use three.js in a React app to render a 3D model
+date: 2022-02-06
+description: How to quickly set up localizations and translations with react-i18next and i18next framework in a React web application using hooks.
+categories:
+    - react
+---
+
 ## How to use three.js in a React app to render a 3D model
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1644176957809/ZG0SuMgr5.jpeg)

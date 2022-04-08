@@ -1,3 +1,11 @@
+---
+title: How to quickly optimize images in a Github repository
+date: 2021-12-26
+description: How to use ImgBot to optimize images in a GitHub repository. This will automatically create the pull request with reduced image sizes.
+categories:
+    - devops
+---
+
 ## How to quickly optimize images in a Github repository
 
 ![Splash](https://cdn.hashnode.com/res/hashnode/image/upload/v1640538016259/Jfo2-WPTS.jpeg)

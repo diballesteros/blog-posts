@@ -1,3 +1,12 @@
+---
+title: How to make more detailed error messages with Sentry
+date: 2022-01-30
+description: How to quickly and easily set up a personalized error entry with more detailed parameters in a React app or any Javascript app using Sentry
+categories:
+    - testing
+    - tooling
+---
+
 ## How to make more detailed error messages with Sentry
 
 ![Ladybug](https://cdn.hashnode.com/res/hashnode/image/upload/v1643569612712/3UQmQ56rH.jpeg)

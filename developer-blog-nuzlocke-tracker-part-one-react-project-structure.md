@@ -1,3 +1,12 @@
+---
+title: Dev Log Nuzlocke Tracker — React Project Structure
+date: 2021-07-26
+description: First in the series of a developer blog chronicling my experience creating a React app. In this part I explain the project and the folder structure.
+categories:
+    - react
+    - devlog
+---
+
 ## Dev Log: Nuzlocke Tracker — React Project Structure
 
 This is the first in a series where I chronicle my process of developing an online app. Firstly, I suppose should explain what exactly a **Nuzlocke Tracker** is.
