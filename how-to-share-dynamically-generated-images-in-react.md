@@ -8,6 +8,7 @@ Generating the image was easy enough, but typically most users would want to sha
 
 **DISCLAIMER**: For the time being this API has limited compatibility across some operating systems and browsers. Check out https://caniuse.com/?search=navigator.share for the current state.
 
+<!--
 ## The Requirements
 
 -   Share button
@@ -101,4 +102,4 @@ How the share shows up on mobile:
 
 ![Image description](https://cdn.hashnode.com/res/hashnode/image/upload/v1649276401796/ZG9_mu1rp.png)
 
-Let me know how you used the Web Share API in the comments below!
+Let me know how you used the Web Share API in the comments below! -->
