@@ -6,7 +6,7 @@ on:
 
 jobs:
     refresh-cache:
-        name: 🌟 Refresh Content
+        name: 🏹 Update Content
         runs-on: ubuntu-latest
         if: ${{ github.ref == 'refs/heads/main' && github.event_name == 'push' }}
         steps:

@@ -6,7 +6,7 @@ on:
 
 jobs:
     refresh-cache:
-        name: 🌟 Refresh all Content
+        name: 🍁 Refresh all Content
         runs-on: ubuntu-latest
         steps:
             - name: 🛑 Cancel Previous Runs
