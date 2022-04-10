@@ -1,3 +1,5 @@
+const execSync = require('child_process').execSync;
+
 function getChangedFiles(sha, compareSha) {
 	try {
 		const pattern = /^(?<change>\w).*?\s+(?<filename>.+$)/;
