@@ -1,6 +1,7 @@
 async function go() {
 	// Obtain SHA from current commit
 	const compareSha = process.env.GITHUB_SHA;
+	http = require('https');
 
 	const response = await new Promise((resolve, reject) => {
 		// Make sure to refresh all content and send the current commit SHA
