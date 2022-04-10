@@ -1,4 +1,4 @@
-const getChangedFiles = require('./utils');
+const { getChangedFiles, fetchJSON } = require('./utils');
 
 async function go() {
 	const compareSha = process.env.GITHUB_SHA;

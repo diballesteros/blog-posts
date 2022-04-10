@@ -23,4 +23,29 @@ function getChangedFiles(sha, compareSha) {
 	}
 }
 
-module.exports = { getChangedFiles };
+async function fetchJSON({ http = require('https'), url }) {
+	return new Promise((resolve, reject) => {
+		try {
+			const req = http.get(url, (res) => {
+				let data = '';
+				res.on('data', (chunk) => (data += chunk));
+				res.on('end', () => {
+					try {
+						resolve(JSON.parse(data));
+					} catch (e) {
+						reject(e);
+					}
+				}).on('error', (error) => {
+					reject(error);
+				});
+			});
+			req.on('error', (error) => {
+				reject(error);
+			});
+		} catch (error) {
+			reject(error);
+		}
+	});
+}
+
+module.exports = { getChangedFiles, fetchJSON };
