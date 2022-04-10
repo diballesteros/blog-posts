@@ -1,6 +1,7 @@
 ---
 title: How to add Cypress & Codecov in Github Actions in React App
 date: 2021-09-19
+published: true
 description: How to easily integrate Cypress and Codecov in a React app in a CI/CD pipeline using Github Actions. Validate tests for free on open source apps in Github.
 categories:
     - testing

@@ -2,6 +2,7 @@ const { getChangedFiles, fetchJSON } = require('./utils');
 
 async function go() {
 	const compareSha = process.env.GITHUB_SHA;
+	http = require('https');
 
 	const shaInfo = await fetchJSON({
 		url: `https://${process.env.FLY_APP_NAME}.fly.dev/_content/refresh-content.json`,
