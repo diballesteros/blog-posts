@@ -21,6 +21,9 @@ async function go() {
 	}
 
 	const changedFiles = getChangedFiles(sha, compareSha) ?? [];
+
+	console.log(`Refreshing ${JSON.stringify(changedFiles)}`);
+
 	const contentPaths = changedFiles
 		.filter(
 			({ filename }) =>
