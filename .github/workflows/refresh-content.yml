@@ -6,8 +6,9 @@ on:
 
 jobs:
     refresh-cache:
-        name: 🌟 Refresh all Content
+        name: 🌟 Refresh Content
         runs-on: ubuntu-latest
+        if: ${{ github.ref == 'refs/heads/main' && github.event_name == 'push' }}
         steps:
             - name: 🛑 Cancel Previous Runs
               uses: styfle/cancel-workflow-action@0.9.1
@@ -23,7 +24,7 @@ jobs:
                   node-version: 16
 
             - name: 💿 Refresh Content
-              run: node ./javascript/refresh-all-content.js
+              run: node ./others/refresh-content.js
               env:
                   COMMIT_SHA: ${{ github.sha }}
                   REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
