@@ -22,18 +22,14 @@ async function go() {
 
 	const changedFiles = getChangedFiles(sha, compareSha) ?? [];
 
-	console.log(`Refreshing ${JSON.stringify(changedFiles)}`);
+	console.log(`${JSON.stringify(changedFiles)}`);
 
-	const contentPaths = changedFiles
-		.filter(
-			({ filename }) =>
-				filename.startsWith('content') &&
-				filename.match(/\w+\/\w+\/\w+/g)
-		)
-		.map(({ filename }) => filename.replace(/^content\//, ''));
+	const contentPaths = changedFiles.filter(({ filename }) =>
+		filename.endsWith('md')
+	);
 
 	if (contentPaths && contentPaths.length > 0) {
-		console.error('Content changed. Refreshing content 💿', {
+		console.error('Refreshing the following content', {
 			currentSHA: compareSha,
 			sha,
 			contentPaths,

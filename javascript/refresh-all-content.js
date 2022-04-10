@@ -57,7 +57,7 @@ async function go() {
 		}
 	});
 
-	console.info('Content refreshed 🚀', { response });
+	console.info('All content refreshed 🚀🚀', { response });
 }
 
 go().catch((error) => {
