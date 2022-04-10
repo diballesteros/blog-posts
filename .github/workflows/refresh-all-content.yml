@@ -1,4 +1,11 @@
 name: 🍁 Refresh all Content
+on:
+    workflow_dispatch:
+        inputs:
+            name:
+                description: 'Reason for manual refresh'
+                default: ''
+                required: false
 
 jobs:
     refresh-cache:
