@@ -24,7 +24,7 @@ jobs:
                   node-version: 16
 
             - name: 💿 Refresh Content
-              run: node ./others/refresh-content.js
+              run: node ./javascript/refresh-content.js
               env:
                   COMMIT_SHA: ${{ github.sha }}
                   REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
