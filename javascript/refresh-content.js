@@ -88,7 +88,7 @@ async function go() {
 			}
 		});
 
-		console.info('Content refreshed 🚀', { response });
+		console.info('Content updated from commit 🐱‍👤', { response });
 	} else {
 		console.info('No updates detected 🤔');
 	}
