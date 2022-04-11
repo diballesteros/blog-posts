@@ -23,11 +23,9 @@ async function go() {
 
 	const changedFiles = getChangedFiles(sha, compareSha) ?? [];
 
-	console.log(`${JSON.stringify(changedFiles)}`);
-
-	const contentPaths = changedFiles.filter(({ filename }) =>
-		filename.endsWith('md')
-	);
+	const contentPaths = changedFiles
+		.filter(({ filename }) => filename.endsWith('md'))
+		.map(({ filename }) => filename);
 
 	if (contentPaths && contentPaths.length > 0) {
 		console.error('Refreshing the following content', {
