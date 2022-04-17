@@ -1,5 +1,5 @@
 ---
-title: Dev Log Nuzlocke Tracker — React Project Structure
+title: Dev Log Nuzlocke Tracker — Part Three — Promotion
 date: 2021-08-08
 published: true
 description: First in the series of a developer blog chronicling my experience creating a React app. In this part I explain the project and the folder structure.
