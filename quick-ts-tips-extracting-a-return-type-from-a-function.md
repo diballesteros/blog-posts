@@ -1,6 +1,7 @@
 ---
 title: Quick TS Tips Extracting a return type from a function
 date: 2021-12-12
+published: true
 description: My ongoing series of typescript tips. A short tutorial on how to extract the return type from a function into its own type, useful for post-manipulated data.
 categories:
     - typescript

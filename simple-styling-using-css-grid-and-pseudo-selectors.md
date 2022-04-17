@@ -1,6 +1,7 @@
 ---
 title: Simple styling using CSS grid for column groups
 date: 2021-11-15
+published: true
 description: How to quickly code up simple styling for a CSS grid layout and pseudo-selectors to apply different styling to column groups
 categories:
     - css

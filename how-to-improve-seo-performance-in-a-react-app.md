@@ -1,6 +1,7 @@
 ---
 title: How to improve SEO performance in a Create-React-App
 date: 2021-08-13
+published: true
 description: How to improve SEO performance in a React app made by create-react-app with hosting configurations, metadata and integrations with various search engines
 categories:
     - react
@@ -86,7 +87,8 @@ There are various amount of HTML tags that can help crawlers to understand the s
 
 -   HTML Language: Indicates the primary language of the webpage
 -   Meta Viewport: Gives the browser instructions on how to control the page’s dimensions and scaling
--   Meta Description: Provides a brief summary of a web page. Typically should be around 160 words. Include important keywords for crawlers to understand the site!
+-   Meta published: true
+    description: Provides a brief summary of a web page. Typically should be around 160 words. Include important keywords for crawlers to understand the site!
 -   Link Canonical: if the site is a single page that can be navigated to by multiple sources this tag can be set to consolidate them.
 -   Title — it is shown in the browser’s tab and is a primary way to for search engines to find the page, should typically be within 50–60 words
 -   Optional: [Open Graph](https://ogp.me/) — Various social media sites such as Twitter and Facebook use the open graph protocol to understand your site and display it in different ways when linked to it.

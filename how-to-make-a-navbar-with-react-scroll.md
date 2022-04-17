@@ -1,6 +1,7 @@
 ---
 title: How to make a Navbar with react-scroll
 date: 2021-07-30
+published: true
 description: How to build a fluid navbar component in react with built-in scroll to behavior using react JS and react-scroll
 categories:
     - react

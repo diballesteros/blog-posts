@@ -1,9 +1,10 @@
 ---
 title: Make your website more accessible with these Responsive Design tips
 date: 2022-03-16
+published: true
 description: The third article in my series. In this post, I cover how to effectively use responsive design to create a more accessible website.
 categories:
-    - accessibility
+    - a11y
 ---
 
 ## Make your website more accessible with these Responsive Design tips

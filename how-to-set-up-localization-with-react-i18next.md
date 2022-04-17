@@ -1,6 +1,7 @@
 ---
 title: How to set up localization with react-i18next
 date: 2022-01-23
+published: true
 description: How to quickly set up localizations and translations with react-i18next and i18next framework in a React web application using hooks.
 categories:
     - react

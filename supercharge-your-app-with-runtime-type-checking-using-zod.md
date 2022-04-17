@@ -1,6 +1,7 @@
 ---
 title: Supercharge your app with runtime type-checking using ZOD
 date: 2022-02-13
+published: true
 description: How to quickly supercharge the type checking in your web application by using ZOD and Typescript. However, it has the added benefit of working in runtime!
 categories:
     - typescript

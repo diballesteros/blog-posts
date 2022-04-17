@@ -1,6 +1,7 @@
 ---
 title: How to easily add dark mode to a React app
 date: 2021-08-05
+published: true
 description: How to easily add an animated dark mode to a React app with no third party libraries using just CSS varibles and react hooks.
 categories:
     - react

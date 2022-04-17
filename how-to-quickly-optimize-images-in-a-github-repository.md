@@ -1,6 +1,7 @@
 ---
 title: How to quickly optimize images in a Github repository
 date: 2021-12-26
+published: true
 description: How to use ImgBot to optimize images in a GitHub repository. This will automatically create the pull request with reduced image sizes.
 categories:
     - devops
@@ -23,7 +24,8 @@ In this short tutorial, I’ll quickly go over how to set it up in your repo, th
 
 Within the Github marketplace, which can be accessed from the top bar of Github, you can access a variety of different tools for your repository! One of which is the [ImgBot](https://github.com/marketplace/imgbot).
 
-As per the description: “Imgbot is a friendly robot that optimizes your images and saves you time. Optimized images mean smaller file sizes without sacrificing quality.”
+As per the published: true
+description: “Imgbot is a friendly robot that optimizes your images and saves you time. Optimized images mean smaller file sizes without sacrificing quality.”
 
 Great! Once you’re on the page you can set up the plan. As a disclaimer, ImgBot does have paid plans for private repos but for public repos it is completely free!
 

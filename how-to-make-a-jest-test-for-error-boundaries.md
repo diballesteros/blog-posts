@@ -1,6 +1,7 @@
 ---
 title: How to make a Jest Test for Error Boundaries
 date: 2021-11-02
+published: true
 description: How to quickly make a Jest Test for React applications to test the functionality and error handling of an error boundary component
 categories:
     - testing

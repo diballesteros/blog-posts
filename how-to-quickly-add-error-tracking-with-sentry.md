@@ -1,6 +1,7 @@
 ---
 title: How to quickly add error tracking with Sentry
 date: 2021-10-24
+published: true
 description: A short tutorial on how to quickly and easily add error tracking and performance monitoring with the Sentry library in a React app
 categories:
     - react

@@ -1,6 +1,7 @@
 ---
 title: Quickly publish and install a library with GitHub Packages
 date: 2022-04-04
+published: true
 description: How to publish a react library for free using the built-in functionality of Github Packages. Also, how to use said library in another project.
 categories:
     - react

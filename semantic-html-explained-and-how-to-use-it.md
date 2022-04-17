@@ -1,9 +1,10 @@
 ---
 title: Semantic HTML explained and how to use it
 date: 2022-02-16
+published: true
 description: What are Semantic HTML elements? When looking at one it seems like any other HTML tag, however, its intended use is clearer to the browser.
 categories:
-    - accessibility
+    - a11y
 ---
 
 ## Semantic HTML explained and how to use it

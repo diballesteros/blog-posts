@@ -1,6 +1,7 @@
 ---
 title: How to make a simple slider component in React
 date: 2021-10-17
+published: true
 description: How to make a simple slider component in React using the native Html INPUT element and some CSS styling with a little bit of Javascript.
 categories:
     - react

@@ -1,9 +1,10 @@
 ---
 title: How to do a thorough accessibility review for your website
 date: 2022-02-23
+published: true
 description: An article on how to do a robust review of accessibility on your website using the following techniques keyboard navigation, screen readers, and lighthouse.
 categories:
-    - accessibility
+    - a11y
 ---
 
 ## How to do a thorough accessibility review for your website

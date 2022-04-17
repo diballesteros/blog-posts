@@ -1,6 +1,7 @@
 ---
 title: How to migrate Zustand local storage store to a new version
 date: 2021-08-19
+published: true
 description: How to improve SEO performance in a React app made by create-react-app with hosting configurations, metadata and integrations with various search engines
 categories:
     - react

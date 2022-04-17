@@ -1,9 +1,10 @@
 ---
 title: How to do an accessibility review for your website Font
 date: 2022-03-09
+published: true
 description: How to do a thorough accessibility review for your website. In this article, we cover how to handle font size, font color, and font style.
 categories:
-    - accessibility
+    - a11y
 ---
 
 ## How to do an accessibility review for your website: Font

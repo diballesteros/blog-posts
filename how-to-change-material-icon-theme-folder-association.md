@@ -1,6 +1,7 @@
 ---
 title: How to change Material Icon Theme folder association
 date: 2021-09-09
+published: true
 description: Change material Icon Theme, for visual studio code, and folder associations. Choose any icon to display in the file explorer.
 categories:
     - vscode

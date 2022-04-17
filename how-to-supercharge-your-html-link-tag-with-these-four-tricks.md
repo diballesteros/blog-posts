@@ -1,6 +1,7 @@
 ---
 title: How to supercharge your HTML link tag with these four tricks
 date: 2022-03-28
+published: true
 description: How to use lesser-known features of the HTML link tag to speed up and optimize website performance such as preload, prefetch, alternate, and media
 categories:
     - performance

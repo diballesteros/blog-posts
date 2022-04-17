@@ -1,7 +1,7 @@
 ---
 title: How to escape tutorial hell — the 100% fallacy
-published: true
 date: 2022-03-13
+published: true
 description: When learning how to code it is very common to fall into tutorial hell. I'll go over my experience with tutorial hell and how I managed to escape it.
 categories:
     - devlog

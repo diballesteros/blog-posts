@@ -1,6 +1,7 @@
 ---
 title: How to publish a PWA to the iOS App Store
 date: 2021-11-28
+published: true
 description: A guide on how to generate the files necessary to upload and publish a progressive web app (PWA) to the iOS App Store using the PWABuilder
 categories:
     - tooling

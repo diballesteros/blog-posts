@@ -1,6 +1,7 @@
 ---
 title: What is imposter syndrome? And how I deal with it
 date: 2022-03-23
+published: true
 description: Imposter syndrome is a common feeling to have as a software developer even if you've been doing it for years. I go over my personal experiences with it.
 categories:
     - devlog
