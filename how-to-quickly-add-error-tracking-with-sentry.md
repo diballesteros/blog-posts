@@ -7,7 +7,7 @@ categories:
     - react
 ---
 
-## How to quickly add error tracking with Sentry 
+### Introduction
 
 [Sentry](https://sentry.io/) is an error tracking and performance monitoring library that can be quickly hooked up to any existing project. This is especially useful to detect a considerable amount of bugs and can be easily integrated into a React app.
 
@@ -17,19 +17,19 @@ Let’s get started!
 
 First, let’s install the necessary third party libraries
 
-```
+```bash
 yarn add @sentry/react @sentry/tracing
 ```
 
 Sentry recommends initializing Sentry as early as possible. In a React app, this will commonly be the index.jsx/index.tsx
 
-```
-import \* as Sentry from '@sentry/react';
+```js
+import * as Sentry from '@sentry/react';
 import { Integrations } from '@sentry/tracing';
 Sentry.init({
-dsn: 'APPLICATION\_DSN',
-integrations: \[new Integrations.BrowserTracing()\],
-tracesSampleRate: 0.2,
+	dsn: 'APPLICATION_DSN',
+	integrations: [new Integrations.BrowserTracing()],
+	tracesSampleRate: 0.2,
 });
 ```
 
@@ -47,25 +47,25 @@ Let’s select React. On the following screen, you’ll see a code snippet much 
 
 Now that we have Sentry initialized we can go ahead and test it out. My preferred method of integration is wrapping a Sentry Error Boundary around my components with a fallback component:
 
-```
-import \* as Sentry from '@sentry/react';
+```js
+import * as Sentry from '@sentry/react';
 
 <Sentry.ErrorBoundary fallback={<p>This is a fallback</p>}>
-    <MyComponent />
-</Sentry.ErrorBoundary>
+	<MyComponent />
+</Sentry.ErrorBoundary>;
 ```
 
 In order to force an error let’s create the following code in a component
 
-```
+```js
 const errorMethod = () => {
-    throw new Error('Error');
+	throw new Error('Error');
 };
 
 return (
-<button onClick={errorMethod} type="button">
-Break the world
-</button>
+	<button onClick={errorMethod} type="button">
+		Break the world
+	</button>
 );
 ```
 

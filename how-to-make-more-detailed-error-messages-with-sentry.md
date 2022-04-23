@@ -8,7 +8,7 @@ categories:
     - tooling
 ---
 
-## How to make more detailed error messages with Sentry
+### Introduction
 
 ![Ladybug](https://cdn.hashnode.com/res/hashnode/image/upload/v1643569612712/3UQmQ56rH.jpeg)
 _Photo by Ritchie Valens on Unsplash_
@@ -25,7 +25,7 @@ DISCLAIMER: The examples are done with a React app but this can be done in any J
 
 First and foremost, in the area of your app where you want to have a more detailed error flow, we have to import sentry.
 
-```
+```js
 import { addBreadcrumb, Severity } from '@sentry/react';
 ```
 

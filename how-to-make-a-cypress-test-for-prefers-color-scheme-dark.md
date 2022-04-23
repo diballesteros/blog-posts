@@ -7,7 +7,7 @@ categories:
     - testing
 ---
 
-## How to make a Cypress test for prefers-color-scheme: dark
+### Introduction
 
 ![Darkmode](https://cdn.hashnode.com/res/hashnode/image/upload/v1639932516028/v5wJOpkTs.jpeg)
 _Photo by Terry Vlisidis on Unsplash_

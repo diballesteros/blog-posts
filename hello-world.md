@@ -7,9 +7,15 @@ categories:
     - react
 ---
 
-## How To Create a Stunning Side Drawer With React-spring
+### Introduction
 
-At my job, I recently had to create a side drawer and due to specific constraints had to create it using react-spring.
+A side drawer component is a common UI pattern used in all sorts of apps, ranging from mobile apps to web apps to desktop apps.
+
+So what is a side drawer?
+
+A side drawer component is a sliding panel that can be used to display additional information or actions.
+
+At my job, I recently had to create a side drawer and due to specific constraints had to create it using react-spring. These are the steps I took to create one from scratch.
 
 ### Requirements
 
@@ -49,12 +55,13 @@ Easy enough. Now, let's start hooking up react-spring to the state we just creat
 
 **useTransition** is a hook provided to us by react-spring specifically for the task of tackling lifecycles!
 
-````js
-  const transitions = useTransition(show, null, {
-    from: { position: "fixed", opacity: 0, width: 0 },
-    enter: { opacity: 1, width: 320 },
-    leave: { opacity: 0, width: 0 }
-  });```
+```js
+const transitions = useTransition(show, null, {
+	from: { position: 'fixed', opacity: 0, width: 0 },
+	enter: { opacity: 1, width: 320 },
+	leave: { opacity: 0, width: 0 },
+});
+```
 
 Now let’s break down the hook itself. We are evaluating the show state we had set earlier and are declaring two styles to adjust: the opacity of the overlay and the width of the side drawer.
 
@@ -63,22 +70,20 @@ Now let’s break down the hook itself. We are evaluating the show state we had 
 First, let’s code up the overlay; all we have to do is display a dimmed div.
 
 ```js
- <div className="App">
-      <button onClick={() => setShow((prevState) => !prevState)}>
-        Click me
-      </button>
-      {transitions?.map(
-        ({ item, key, props }) =>
-          item && (
-            <animated.div
-              key={key}
-              style={{ opacity: props.opacity }}
-              className="overlay"
-            />
-          )
-      )}
-    </div>
-````
+<div className="App">
+	<button onClick={() => setShow((prevState) => !prevState)}>Click me</button>
+	{transitions?.map(
+		({ item, key, props }) =>
+			item && (
+				<animated.div
+					key={key}
+					style={{ opacity: props.opacity }}
+					className="overlay"
+				/>
+			)
+	)}
+</div>
+```
 
 Transitions must be mapped over. The key is for react to differentiate between the different items in the array. Because we are only interested in the overlay for the moment we will pass the opacity we declared in the previous hook.
 
@@ -88,26 +93,25 @@ Transitions must be mapped over. The key is for react to differentiate between t
 
 Now lets go ahead and animate the inner side drawer as well.
 
-```
+```js
 <div className="App">
-      <button onClick={() => setShow((prevState) => !prevState)}>
-        Click me
-      </button>
-      {transitions?.map(
-        ({ item, key, props }) =>
-          item && (
-            <animated.div
-              key={key}
-              style={{ opacity: props.opacity }}
-              className="overlay"
-            >
-              <animated.div style={{ width: props.width }} className="drawer">
-               Hey look it's a side drawer!
-              </animated.div>
-            </animated.div>
-          )
-      )}
-    </div>
+	<button onClick={() => setShow((prevState) => !prevState)}>Click me</button>
+	{transitions?.map(
+		({ item, key, props }) =>
+			item && (
+				<animated.div
+					key={key}
+					style={{ opacity: props.opacity }}
+					className="overlay">
+					<animated.div
+						style={{ width: props.width }}
+						className="drawer">
+						Hey look it's a side drawer!
+					</animated.div>
+				</animated.div>
+			)
+	)}
+</div>
 ```
 
 Similar to the overlay, we create our animated div and pass in the width from **useTransition**.
@@ -116,9 +120,9 @@ Similar to the overlay, we create our animated div and pass in the width from **
 
 All that’s left to do is close the overlay when we click it for a great user experience.
 
-```
+```js
 <animated.div style={{ width: props.width }} className="drawer">
-                Hey look it's a side drawer!
+  Hey look it's a side drawer!
 </animated.div>
 <div className="fill" onClick={() => setShow(false)} />
 ```

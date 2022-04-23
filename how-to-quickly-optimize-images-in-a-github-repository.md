@@ -7,7 +7,7 @@ categories:
     - devops
 ---
 
-## How to quickly optimize images in a Github repository
+### Introduction
 
 ![Splash](https://cdn.hashnode.com/res/hashnode/image/upload/v1640538016259/Jfo2-WPTS.jpeg)
 _Photo by Erik Mclean on Unsplash_

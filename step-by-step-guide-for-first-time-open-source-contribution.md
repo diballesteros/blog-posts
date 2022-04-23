@@ -7,9 +7,10 @@ categories:
     - devlog
 ---
 
-## Step-By-Step guide for the first time Open Source contribution
+### Introduction
 
-After doing a wide array of coffee chats, one of the most common questions was how to go about contributing to open source. So I decided to make an in-depth how-to from the very beginning to the very end.  
+After doing a wide array of coffee chats, one of the most common questions was how to go about contributing to open source. So I decided to make an in-depth how-to from the very beginning to the very end.
+
 This is what I would do as a first-time open source contributor, including:
 
 -   How to find and request the issue
@@ -80,7 +81,7 @@ Click on Github CLI (in case you need to download it [here it is](https://cli.gi
 
 Obviously, for the case of your open source project, you’d replace **stormkit-io/app-stormkit-io** with what you have
 
-```
+```bash
 gh repo clone stormkit-io/app-stormkit-io
 ```
 
@@ -140,7 +141,7 @@ git push -u origin git push --set-upstream origin <NAME OF BRANCH>
 
 As a small refresher when you’re done working through your code don’t forget the basic git commands to stage and commit your changes!
 
-```
+```bash
 git add <CHANGED FILES> git commit -m "{{MEANINGFUL COMMIT MESSAGE}}
 ```
 

@@ -8,8 +8,6 @@ categories:
     - tooling
 ---
 
-## Quickly publish and install a library with GitHub Packages
-
 ### Introduction
 
 Github comes in with some pretty useful baked-in features, such as the ability to create your own package. In this tutorial, I’ll go over how to set up the Github Packages repository, then create a simple React hook, publish it and then install it in another project.
@@ -161,7 +159,7 @@ Replace @diballesteros with your GitHub user name or the one you used to create 
 
 And in our package.json we’ll include the new dependency:
 
-```
+```json
 "dependencies": {
     ...other dependencies,
     "@diballesteros/useless-hooks": "^1.0.1"

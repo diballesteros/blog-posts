@@ -7,8 +7,6 @@ categories:
     - devlog
 ---
 
-## How to escape tutorial hell — the 100% fallacy
-
 ### Introduction
 
 So how do we escape tutorial hell? Well, I should start from the very beginning. In the [first part](https://relatablecode.com/my-experience-after-doing-20-coffee-chats-in-one-weekend/) of this series, I reported that I did 20 coffee chats over one weekend. Since then I’ve been doing a similar number of coffee chats every weekend. I am now a total of over 50 coffee chats!
@@ -27,7 +25,7 @@ One of the most common questions I received during the coffee chats is:
 
 > _If there was one thing you could change about your journey, what would it be?_
 
-> _Coffee chatters_
+_Coffee chatters_
 
 When I was learning I would jump from online Bootcamp to online Bootcamp. Freecodecamp to the Odin project to Udemy Courses to Youtube courses. Now don’t get me wrong, these can all be great resources, but doing this constant jumping around can be known as _tutorial hell_. Finishing one tutorial or resource and hopping on into the next.
 
@@ -55,7 +53,7 @@ The real solution is putting the skills learning from **one** tutorial, Bootcamp
 
 > _Practice makes perfect_
 
-> _Generic inspirational quote_
+_Generic inspirational quote_
 
 The meaningful learning, in my humble opinion, will always come when actually sitting down, opening up visual studio code and trying to code _something_, _breaking_ it, and _doing_ it all over again. Even if you have no novel idea it doesn’t matter! Cloning something for the purpose of learning is completely valid.
 

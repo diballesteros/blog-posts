@@ -8,13 +8,13 @@ categories:
     - devlog
 ---
 
-## Dev Log: Nuzlocke Tracker — Part Three — Promotion
+### Introduction
 
 As promised this is the third part where I worked on how to promote the app.
 
 What motivated me most is knowing that people are using my app, so getting this app in the hands of other people was critical. Truth be told I’m a complete novice when it comes to promoting an app, however, I decided to dive headfirst.
 
-## Where to?
+### Where to?
 
 I knew that I would have to begin to research SEO. Unfortunately from my research, I found out that React apps are typically at a disadvantage when it comes to SEO. This is because the crawlers that index the page look through the HTML however the HTML of a React app is dynamically generated.
 
@@ -26,13 +26,13 @@ This is the original post. It was very successful! Not only was it very well rec
 
 I also posted it to other Nuzlocke forums and various discord communities!
 
-## The follow-up
+### The follow-up
 
 As I continued to iterate over the app I posted it several times over the course of the past couple of months to show and detail the updates.
 
 Every thread was fairly well-received but none of them were as successful as the first, however, every single time I gained critical insight into bugs and features people would appreciate.
 
-## SEO
+### SEO
 
 As for how the SEO went after all the posts, it was a mixed bag. For Google, it’s been a real struggle to get to the top page, although a majority of the links ahead of me seem to be illegitimate backlinks.
 

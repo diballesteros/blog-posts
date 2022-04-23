@@ -7,7 +7,7 @@ categories:
     - react
 ---
 
-## How to set up localization with react-i18next
+### Introduction
 
 ![Communication image](https://cdn.hashnode.com/res/hashnode/image/upload/v1642957781512/XSglqhZVW.jpeg)
 _Photo by Headway on Unsplash_
@@ -54,9 +54,9 @@ Then I import them into the configuration file and set the values inside the res
 
 A small example of a resource file (in JSON):
 
-```
+```json
 {
-    "about": "Über"
+	"about": "Über"
 }
 ```
 
@@ -70,13 +70,13 @@ This would take in the language code which corresponds directly to the resources
 
 **IMPORTANT** : If you don’t have the language for the user stored in some other location and just want the one directly from the browser there is a package just for this!
 
-```
+```bash
 npm install i18next-browser-languagedetector
 ```
 
 This will detect the language in the browser. Once installed you can import it from the package:
 
-```
+```js
 import LanguageDetector from 'i18next-browser-languagedetector';
 ```
 
@@ -90,7 +90,7 @@ Essentially, we just plug in all the properties we have previously configured. I
 
 In our root file where we initial render our React tree let’s go ahead and import our configuration file:
 
-```
+```js
 import './i18n';
 ```
 

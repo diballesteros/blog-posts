@@ -7,7 +7,7 @@ categories:
     - react
 ---
 
-## How to make a Navbar with react-scroll
+### Introduction
 
 Having solid navigation built into your webpage is one of the first steps in building it. So it goes without saying that having a navbar is a crucial part. For my portfolio page, I decided to build a navbar, scouring the web I came across [react-scroll](https://www.npmjs.com/package/react-scroll).
 

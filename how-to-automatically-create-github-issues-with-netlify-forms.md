@@ -7,7 +7,7 @@ categories:
     - devops
 ---
 
-## How to automatically create Github Issues with Netlify Forms
+### Introduction
 
 Deploying the web app is typically only one of the first parts of the process.
 

@@ -7,8 +7,6 @@ categories:
     - a11y
 ---
 
-## How to create more accessible media with these tips
-
 ### Introduction
 
 As part of my ongoing series, I’ll cover some best practices when it comes to making more accessible media. Text is a **first-class** citizen of the web, but more and more video and images are becoming common forms of online content consumption.
@@ -85,9 +83,9 @@ Here is an example of a WebVTT file:
 
 These can be linked directly to the track or in some cases the player:
 
-```
+```html
 <video controls src="myvideo.mp4">
-    <track default src="track.vtt">
+	<track default src="track.vtt" />
 </video>
 ```
 

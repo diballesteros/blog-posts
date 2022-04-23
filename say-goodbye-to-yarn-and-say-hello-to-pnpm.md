@@ -7,8 +7,6 @@ categories:
     - tooling
 ---
 
-## Say goodbye to Yarn and say hello to PNPM
-
 ### Introduction
 
 PNPM is a package manager that I have seen floating around for quite some time now. It’s tagged as a “fast, disk space-efficient package manager”. But in what ways? Well, let’s take the quote straight from them as well.

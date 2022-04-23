@@ -7,7 +7,7 @@ categories:
     - react
 ---
 
-## How to share dynamically generated images in React
+### Introduction
 
 I have been developing a [pokémon related app](https://nuzlocke.netlify.app) where you can track encounters. Throughout the process I also added a way to generate a summary image of the run:
 
@@ -17,13 +17,13 @@ Generating the image was easy enough, but typically most users would want to sha
 
 **DISCLAIMER**: For the time being this API has limited compatibility across some operating systems and browsers. Check out https://caniuse.com/?search=navigator.share for the current state.
 
-## The Requirements
+### The Requirements
 
 -   Share button
 -   Dynamically generate an image from the HTML
 -   When clicking the share button share the image to a variety of different options
 
-## The Setup
+### The Setup
 
 Before anything else, to dynamically generate the image a third-party library is necessary. In this tutorial, I will be using [html-to-image](https://www.npmjs.com/package/html-to-image). Cool! Now, let’s go ahead and start setting up the share button.
 
@@ -47,7 +47,7 @@ const imageRef = useRef(null);
 </div>;
 ```
 
-## Create and share the image
+### Create and share the image
 
 html-to-image provides us with a function to directly take out the HTML element and create an image: toBlob. Here we create the function:
 

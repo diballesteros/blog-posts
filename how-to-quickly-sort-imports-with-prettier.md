@@ -7,8 +7,6 @@ categories:
     - tooling
 ---
 
-## How to quickly sort imports with Prettier
-
 ### Introduction
 
 Having disorganized imports bothers me deeply when working on a project. I typically like to keep the entire codebase as organized as possible as it makes sifting through the files much easier. With the help of prettier and a plugin, we can easily sort imports!
@@ -43,11 +41,11 @@ This will cover mostly everything! So let’s create a .prettierrc (a prettier c
 
 Inside that file add the following rule:
 
-```
+```json
 {
-    "importOrder": ["^components/(.*)$", "^[./]" ],
-    "importOrderSeparation": true,
-    "importOrderSortSpecifiers": true
+	"importOrder": ["^components/(.*)$", "^[./]"],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
 }
 ```
 

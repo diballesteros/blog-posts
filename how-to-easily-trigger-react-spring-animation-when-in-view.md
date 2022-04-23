@@ -7,17 +7,19 @@ categories:
     - react
 ---
 
-## How to easily trigger react-spring animation when in view
+### Introduction
 
-[react-spring](https://react-spring.io/) is a library to easily create and integrate animations in a React app. A possible use-case of the library is triggering an animation only when a particular ref or component is in view. In this tutorial, I’ll cover how to set up react-spring and the hooks necessary!
+[react-spring](https://react-spring.io/) is a library to easily create and integrate animations in a React app. A possible use-case of the library is triggering an animation only when a particular ref or component is in view.
+
+In this tutorial, I’ll cover how to set up react-spring and the hooks necessary!
 
 This guide assumes familiarity with React and react-spring and the fundamentals of React Hooks.
 
-## Requirements
+### Requirements
 
 For the sake of the example let’s say we have a webpage that is split into two sections. Both sections take up the entire viewport. When scrolling down to the second page let’s have a header fly in from the right.
 
-## Getting started
+### Getting started
 
 First, let’s set up the page with just the visual portion:
 
@@ -62,7 +64,7 @@ return (
 
 Perfect. But wait our hook is missing some validations in order to transition between two styles. Luckily, modern browsers offer access to the Intersection Observer API. Without getting into the nitty-gritty, this API lets us detect elements that are visible.
 
-## Intersection Observer
+### Intersection Observer
 
 Let’s go ahead and create the hook we’re going to use:
 
@@ -101,7 +103,7 @@ Alright, let’s example how this hook works. Essentially it receives a ref, the
 
 A local state is then set and we return this same entry. An additional parameter is available to freeze the trigger so it isn’t executed multiple times.
 
-## Hooking it up
+### Hooking it up
 
 Next, let’s create the ref and hook it up to the new hook we just created:
 

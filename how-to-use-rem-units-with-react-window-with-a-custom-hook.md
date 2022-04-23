@@ -8,12 +8,14 @@ categories:
     - css
 ---
 
-## How to use REM units with react-window with a custom hook
+### Introduction
 
 ![Window](https://cdn.hashnode.com/res/hashnode/image/upload/v1642351925382/-cUt_WlFz.jpeg)
 _Photo by Hannah Tims on Unsplash_
 
-A while back I transitioned my web app to using [REM](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) units instead of the PX unit. This has a lot of benefits that I won’t get into this article, but I did encounter a few conflicts I did not consider initially. [react-window](https://github.com/bvaughn/react-window) is a library that helps virtualize long lists!
+A while back I transitioned my web app to using [REM](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) units instead of the PX unit. This has a lot of benefits that I won’t get into this article, but I did encounter a few conflicts I did not consider initially.
+
+[react-window](https://github.com/bvaughn/react-window) is a library that helps virtualize long lists!
 
 This is super useful for rendering a considerably less amount of components/tags in the HTML to optimize the performance of the app. But, one thing to consider is that react-window expects certain parameters and properties to be specified in PX.
 

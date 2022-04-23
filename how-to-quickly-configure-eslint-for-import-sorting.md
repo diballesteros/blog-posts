@@ -7,7 +7,7 @@ categories:
     - tooling
 ---
 
-## How to quickly configure ESLint for import sorting
+### Introduction
 
 ![Imports](https://cdn.hashnode.com/res/hashnode/image/upload/v1633878320428/4iT3fpY3R.jpeg)
 
@@ -47,21 +47,60 @@ yarn add eslint-plugin-import --dev
 
 Great! It offers a rule configuration to get very [granular](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md) about how we want our imports to look. We can first differentiate the groups of our imports and split them up by groups:
 
-```
-"rules: { // ..other rules, "import/order": [1, { "groups": ["external", "builtin", "internal", "sibling", "parent", "index"], } ] }
+```json
+"rules: {
+    "import/order":
+    [1,{
+        "groups": [
+        "external",
+        "builtin",
+        "internal",
+        "sibling",
+        "parent",
+        "index"],
+        }
+    ]
+}
 ```
 
-This will split the imports by the groups we specified at the beginning! Great! However, when using aliases with Typescript a few of our imports can be confused with dependencies. This particular rule can help us circumvent these particular edge cases by specifying something called **pathGroups**.
+This will split the imports by the groups we specified at the beginning! Great! However, when using aliases with Typescript a few of our imports can be confused with dependencies.
 
-```
-"groups": ["external", "builtin", "internal", "sibling", "parent", "index"], "pathGroups": [{ "pattern": "components", "group": "internal" }, { "pattern": "common", "group": "internal" }, { "pattern": "routes/ **", "group": "internal" }, { "pattern": "assets/**", "group": "internal", "position": "after" }], "pathGroupsExcludedImportTypes": ["internal"], "alphabetize": { "order": "asc", "caseInsensitive": true }
+This particular rule can help us circumvent these particular edge cases by specifying something called **pathGroups**.
+
+```json
+{
+	"groups": [
+		["external", "builtin"],
+		"internal",
+		["sibling", "parent"],
+		"index"
+	],
+	"pathGroups": [
+		{ "pattern": "components", "group": "internal" },
+		{ "pattern": "components/**", "group": "internal" },
+		{ "pattern": "constants/**", "group": "internal" },
+		{ "pattern": "common", "group": "internal" },
+		{ "pattern": "error/**", "group": "internal" },
+		{ "pattern": "hooks/**", "group": "internal" },
+		{ "pattern": "locale/**", "group": "internal" },
+		{ "pattern": "routes/**", "group": "internal" },
+		{ "pattern": "selectors", "group": "internal" },
+		{ "pattern": "store", "group": "internal" },
+		{ "pattern": "assets/**", "group": "internal", "position": "after" }
+	],
+	"pathGroupsExcludedImportTypes": ["internal"],
+	"alphabetize": {
+		"order": "asc",
+		"caseInsensitive": true
+	}
+}
 ```
 
 Great now it will consider those aliased folders under the group **internal**!
 
 As part of the linting process you could now run:
 
-```
+```bash
 yarn lint --fix
 ```
 

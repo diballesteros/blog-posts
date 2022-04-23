@@ -8,7 +8,7 @@ categories:
     - devlog
 ---
 
-## Dev Log: Nuzlocke Tracker – Part Two – Page Layout
+### Introduction
 
 This is the second part of the series where I chronicle the development process of a [Nuzlocke Tracker](https://nuzlocke.netlify.app/).
 

@@ -7,7 +7,7 @@ categories:
     - a11y
 ---
 
-## How to do an accessibility review for your website: Font
+### Introduction
 
 In my previous post about reviewing accessibility, I covered a lot of the HTML-structure-based implementations you can do to make it more accessible, especially for screen readers!
 
@@ -65,7 +65,7 @@ To give a small explanation of the meanings of the numbers:
 
 > _WCAG 2.0 level AA requires a contrast ratio of at least 4.5:1 for normal text and 3:1 for large text. WCAG 2.1 requires a contrast ratio of at least 3:1 for graphics and user interface components (such as form input borders). WCAG Level AAA requires a contrast ratio of at least 7:1 for normal text and 4.5:1 for large text._
 
-> [_https://webaim.org/resources/contrastchecker/_](https://webaim.org/resources/contrastchecker/)
+[_https://webaim.org/resources/contrastchecker/_](https://webaim.org/resources/contrastchecker/)
 
 Comparing the new colors side-by-side we get the following:
 

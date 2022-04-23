@@ -7,7 +7,7 @@ categories:
     - react
 ---
 
-## Important takeaways from the State of JavaScript
+### Introduction
 
 It’s that time of the year and the results are in for the “State of Javascript Survey”. Overall there wasn’t anything too ground-shattering but there are a few important takeaways to keep in mind for the coming year.
 
@@ -27,7 +27,9 @@ One of the main points of the survey is to see how competing libraries are worki
 
 ![tierlist](https://cdn.hashnode.com/res/hashnode/image/upload/v1645357779578/QRBMyOQAI.png)
 
-Vite and esbuild being at the top I think is a welcome change. If anyone has used the remix framework they’ll know how quickly it recompiles the entire build with esbuild. Vite performs along similar lines. Definitely recommend checking them out as it can add up to a lot of saved time over the course of the year.
+Vite and esbuild being at the top I think is a welcome change. If anyone has used the remix framework they’ll know how quickly it recompiles the entire build with esbuild. Vite performs along similar lines.
+
+Definitely recommend checking them out as it can add up to a lot of saved time over the course of the year.
 
 As for testing, Cypress and Jest are high on the list! I [regularly](https://relatablecode.com/how-to-add-cypress-codecov-in-github-actions-in-react-app/) [use](https://relatablecode.com/how-to-mock-the-webshare-api-in-a-cypress-test/) [Cypress](https://relatablecode.com/how-to-make-a-cypress-test-for-prefers-color-scheme-dark/) for my side projects. It’s very smooth to use and can actually make testing pretty fun.
 

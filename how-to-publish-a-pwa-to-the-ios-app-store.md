@@ -7,21 +7,23 @@ categories:
     - tooling
 ---
 
-## How to publish a PWA to the iOS App Store
+### Introduction
 
 [PWABuilder.com](http://PWABuilder.com) is a site that allows you to link your PWA and generate files to publish it to various different app stores. I previously used it to create the files necessary to publish my app to the Google Playstore and the Windows Store. Recently an option was added for the App Store as well!
 
-DISCLAIMER: I’m only aware of being able to do this on a MAC OS as it is required to use XCODE to bundle and ship off the software to App Store Connect. If there is a method with Windows mention it in the comments!
+DISCLAIMER: I’m only aware of being able to do this on a MAC OS as it is required to use XCODE to bundle and ship off the software to App Store Connect.
+
+If there is a method with Windows mention it in the comments!
 
 ### PWABuilder
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468711373/KqFps4yX4.png)
+![ship pwa](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468711373/KqFps4yX4.png)
 
 PWABuilder URL Input
 
 Firstly, let’s navigate to PWABuilder.com and enter the corresponding URL in the input above. Afterward, some basic stats are provided. By hitting the next button we can now start generating the files.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468713221/ytiyhlw8B.png)
+![ios options](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468713221/ytiyhlw8B.png)
 
 PWABuilder iOS Option
 
@@ -35,4 +37,4 @@ Follow through the steps and you’ll be able to begin the publishing process! D
 
 This is an example of my own personal app being published:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468714452/CidOjxmMh.png)
+![nuzlocke tracker ios listing](https://cdn.hashnode.com/res/hashnode/image/upload/v1638468714452/CidOjxmMh.png)

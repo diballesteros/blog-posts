@@ -7,7 +7,7 @@ categories:
     - typescript
 ---
 
-## Quick TS Tips: Extracting a return type from a function
+### Introduction
 
 ![Splash](https://cdn.hashnode.com/res/hashnode/image/upload/v1639313427202/iiID9_Z1T.jpeg)
 _Photo by Spencer Davis on Unsplash_

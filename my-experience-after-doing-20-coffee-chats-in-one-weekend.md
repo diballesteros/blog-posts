@@ -7,9 +7,7 @@ categories:
     - devlog
 ---
 
-## My experience after doing 20 Coffee Chats in one weekend
-
-### Learning about 100Devs
+### Introduction
 
 I recently came across an online cohort by the name of [100Devs](https://leonnoel.com/100devs/) on Twitch led by [Leon Noel](https://twitter.com/leonnoel). Typically streams in the Software and Development section range around 50–200 viewers for the popular streamers (sometimes more sometimes less). However, one night I saw Leon’s stream at around 4.5k viewers which was quite surprising.
 

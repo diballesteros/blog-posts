@@ -7,9 +7,7 @@ categories:
     - a11y
 ---
 
-## Semantic HTML explained and how to use it
-
-### What is Semantic HTML?
+### Introduction
 
 What are [Semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html) elements? When looking at one it seems like any other HTML tag, however, its meaning and intended use are clearer to the browser interpreting the HTML code and possibly the developer reading the code.
 
@@ -46,7 +44,7 @@ Some things to consider about the header tag: This should contain some of the < 
 
 The footer usually contains but is not limited to copyright information, sitemaps, or any other contact information.
 
-```
+```html
 <header>This is a header</header>
 <main>This is the main content</main>
 <footer>Footer</footer>
@@ -58,12 +56,12 @@ Dividing the sections of the page is usually done with the **section** and **art
 
 The **article** tag should contain independent content that does not require any other context. Whilst the section tag is explicitly tied to the content of the page but is further divided into its respective subsections
 
-```
+```html
 <article>This is self contained content</article>
 
 <main>
-    <section>Related Content</section>
-    <section>Related Content</section>
+	<section>Related Content</section>
+	<section>Related Content</section>
 </main>
 ```
 

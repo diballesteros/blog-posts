@@ -7,7 +7,7 @@ categories:
     - react
 ---
 
-## How to improve SEO performance in a Create-React-App
+### Introduction
 
 I’m currently developing an [app](https://nuzlocke.netlify.app) where I’ve had to delve into the world of SEO (Search Engine Optimization) performance. React apps are at an inherent disadvantage when it comes to SEO because the content is rendered by Javascript and not always present. This can be circumvented with SSG/SSR with frameworks such as Next.js.
 
@@ -63,7 +63,7 @@ In every single one of the tools offered, one of the primary forms to improve SE
 
 Example:
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
@@ -95,25 +95,23 @@ There are various amount of HTML tags that can help crawlers to understand the s
 
 Example:
 
-```
+```html
 <head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description"
-    content="Description" />
-  <meta property="og:title" content="" />
-  <meta property="og:type" content="" />
-  <meta property="og:url" content="" />
-  <meta property="og:image" content="" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:description"
-    content="" />
-  <link rel="canonical" href="" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <title>My Site Title - What it does</title>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#000000" />
+	<meta name="description" content="Description" />
+	<meta property="og:title" content="" />
+	<meta property="og:type" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:description" content="" />
+	<link rel="canonical" href="" />
+	<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+	<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+	<title>My Site Title - What it does</title>
 </head>
 ```
 
@@ -121,4 +119,6 @@ I’ve included the auto-generated create-react-app tags for the favicon and var
 
 ### Content
 
-I’ve saved the best for last. The single most important thing for SEO performance is the actual page content! **Great** page content that is **relevant** and provides **value** is essential. If the page provides value it is incredibly more likely for it to be shared. This sharing creates some things called [backlinks](https://moz.com/learn/seo/backlinks) which crawlers take as basically an upvote for your webpage and greatly boosts its SEO performance.
+I’ve saved the best for last. The single most important thing for SEO performance is the actual page content! **Great** page content that is **relevant** and provides **value** is essential. If the page provides value it is incredibly more likely for it to be shared.
+
+This sharing creates some things called [backlinks](https://moz.com/learn/seo/backlinks) which crawlers take as basically an upvote for your webpage and greatly boosts its SEO performance.

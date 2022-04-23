@@ -7,7 +7,7 @@ categories:
     - css
 ---
 
-## Simple styling using CSS grid for column groups
+### Introduction
 
 Recently, I was tasked with creating a scheduler component. Although this article won’t go into full detail on how it’s being implemented one thing that I had to do was set up the layout (obviously).
 
@@ -21,10 +21,10 @@ Luckily enough there exists a [pseudo-class](https://developer.mozilla.org/en-US
 
 Example:
 
-```
-    li:nth-child(2) {
-      color: red;
-    }
+```css
+li:nth-child(2) {
+	color: red;
+}
 ```
 
 ### Determining the sequence

@@ -7,8 +7,6 @@ categories:
     - devlog
 ---
 
-## What is imposter syndrome? And how I deal with it
-
 ### Introduction
 
 One of the most common questions I get when doing coffee chats is “How do I deal with imposter syndrome?” I feel that is a common feeling to have in the developer community. Especially when first starting out. Although trust me when I say it creeps up every now and then to **_everyone_**!
@@ -38,7 +36,7 @@ You log on to Twitter and see fellow developers advancing much further or solvin
 
 > _I’m a fraud. I don’t really understand the material. How did I get this far?_
 
-> _Me_
+_Me_
 
 But, I guess most social media causes this. Constant comparisons to others. Or it could possibly just be a feeling born from within where you feel like you don’t deserve the success you have because there was no defining “I _a programmer moment_ “.
 
@@ -60,7 +58,7 @@ I look at the things I’ve coded, how far I’ve come in my career, the things 
 
 > _It’s a marathon, not a sprint_
 
-> _Wisdom_
+_Wisdom_
 
 I think this can be extrapolated and applied to your entire life. It’s a marathon but throughout the marathon, there are different checkpoints.
 

@@ -8,7 +8,7 @@ categories:
     - devlog
 ---
 
-## Dev Log: Nuzlocke Tracker — React Project Structure
+### Introduction
 
 This is the first in a series where I chronicle my process of developing an online app. Firstly, I suppose should explain what exactly a **Nuzlocke Tracker** is.
 

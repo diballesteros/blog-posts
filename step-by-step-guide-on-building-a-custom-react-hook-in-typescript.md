@@ -8,7 +8,7 @@ categories:
     - typescript
 ---
 
-## Step by Step guide on building a custom React hook in Typescript
+### Introduction
 
 According to the results of the annual survey of the [State of Javascript](https://relatablecode.com/important-takeaways-from-the-state-of-javascript/), it doesn’t seem like React nor Typescript is going anywhere anytime soon so it’s worth taking some time and learning how they work!
 
@@ -34,8 +34,8 @@ Let’s create the state and the skeleton of the functions:
 
 You should import the appropriate hooks from React itself, in this case, **useState** and **useCallback**.
 
-```
-import {useState, useCallback } from 'react';
+```js
+import { useState, useCallback } from 'react';
 ```
 
 The **useState** hook has access to the previous state, this is generally safer to use so we’ll just toggle it with this functionality. The other two functions, **close** and open, will set the state to either true or false directly. The state of the toggle and the three functions will get returned in an array.
@@ -57,3 +57,5 @@ As a little extra we can add an initial state to the hook in case we want it to 
 And that’s it! Hooks are a great way to abstract logic used in react components.
 
 Here’s an example of the hook in action:
+
+%[https://codesandbox.io/embed/use-toggle-wbzlso?fontsize=14&hidenavigation=1&theme=dark]

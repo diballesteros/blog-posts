@@ -7,7 +7,7 @@ categories:
     - a11y
 ---
 
-## How to do a thorough accessibility review for your website
+### Introduction
 
 Making your website accessible is becoming increasingly important as more and more people are connected to the internet in some way or another.
 
@@ -15,7 +15,7 @@ However, even after using all the fancy aria tags and semantic elements how can 
 
 For a lot of users that depend on well-done accessibility, keyboard navigation is the go-to method to using a website. The good news is though, that this can be tested quite easily. Let’s start by hitting the tab key and checking how it navigates through the content.
 
-```
+```html
 <div tabindex="0">First Tabbable Element</div>
 <div tabindex="0">Second Tabbable Element</div>
 <div tabindex="0">Third Tabbable Element</div>
@@ -43,7 +43,7 @@ Moving the cursor over the image will read out the alt text.
 
 Any content that you want to hide from the screen reader should have the aria-hidden property.
 
-```
+```html
 <div aria-hidden="true">I'm invisible</div>
 ```
 

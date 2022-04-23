@@ -8,7 +8,7 @@ categories:
     - react
 ---
 
-## How to add Cypress & Codecov in Github Actions in React App
+### Introduction
 
 Having a thorough CI/CD pipeline for an application is critical to the success of the application. Typically in these same pipelines, it is normal to include a testing pipeline to make sure everything is still working correctly.
 
@@ -95,20 +95,20 @@ I want to run the tests on several browsers so I’ll first create a step to cre
 
 Afterward, I’ll run the tests in every container:
 
-```
- steps:
-      - name: 🛫 Checkout
-        uses: actions/checkout@v2
+```yml
+steps:
+    - name: 🛫 Checkout
+      uses: actions/checkout@v2
 
-      - name: 🏗 Download the build folders
-        uses: actions/download-artifact@v2
-        with:
+    - name: 🏗 Download the build folders
+      uses: actions/download-artifact@v2
+      with:
           name: build
           path: build
 
-      - name: 💻 'UI Tests - Chrome'
-        uses: cypress-io/github-action@v2.9.7
-        with:
+    - name: 💻 'UI Tests - Chrome'
+      uses: cypress-io/github-action@v2.9.7
+      with:
           start: yarn run develop:ci
           wait-on: http://localhost:3000
           wait-on-timeout: 120
@@ -117,13 +117,13 @@ Afterward, I’ll run the tests in every container:
           parallel: true
           group: 'UI - Chrome - Main'
           spec: 'cypress/integration/main/*'
-        env:
+      env:
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: ✅ Upload coverage to Codecov
-        uses: codecov/codecov-action@v2
+    - name: ✅ Upload coverage to Codecov
+      uses: codecov/codecov-action@v2
 ```
 
 The most important portion here is using the already pre-existing GitHub action for cypress with **cypress-io/github-action@v2.9.7**
@@ -132,7 +132,7 @@ Also, I’m using the command previously **ci:instrument **to run the build. Lik
 
 The final portion Upload coverage to Codecov automatically uploads the report to Codecov if the Github integration is in place.
 
-```
+```yml
 name: Cypress on: \[push\] jobs:
 ```
 

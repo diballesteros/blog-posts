@@ -7,8 +7,6 @@ categories:
     - a11y
 ---
 
-## Make your website more accessible with these Responsive Design tips
-
 ### Introduction
 
 As part of my ongoing series, I’ll cover some basic principles of responsive design when it comes to accessibility. So what is responsive design? On the surface level, It is ensuring that regardless of screen size it should automatically expand and contract to fit the respective container, fluidly. But, I prefer to extend the definition past that and include that **_all_** user preferences should be taken into account when loading the page.
@@ -34,19 +32,19 @@ Another helpful tool to aid in making layouts more responsive is a media query.
 
 ### Responsive media queries
 
-### Layout
+#### Layout
 
 First and foremost I **STRONGLY** recommend creating media queries with [EM and REM units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) As in my previous post, EM units are far superior for font and layouts. It will ensure it scales with personalized configurations of the browser whether it be font size or extensions for custom style sheets.
 
 Here is an example:
 
-```
+```css
 @media (max-width: 46.875em) {
-// ...apply specific rule
+	// ...apply specific rule
 }
 ```
 
-#### Safari bug
+##### Safari bug
 
 There is a famous bug with safari that made this kind of media query a risk to do for users of this browser. But at the time of writing this article, there are still some inconsistencies. Credits to @thecodercoder in this Twitter thread for some visual examples:
 
@@ -56,7 +54,7 @@ Does anyone use em units in their media queries? I’ve noticed that most websit
 
 Although this may require some more testing to cover all edge cases, this may not be the optimal solution. As always test and adapt to your use case. Here’s another blog post with more details on the [EM media queries](https://zellwk.com/blog/media-query-units/).
 
-### Responsive design: animations
+#### Responsive design: animations
 
 But this doesn’t stop here! If your page has animations to help beautify the page it’s important to consider users who have possible adverse effects to animations on the webpage. There is a media feature that helps us combat this: **prefers-reduced-motion**.
 
@@ -67,11 +65,11 @@ _Windows animation settings_
 
 The animations used throughout the application should have a media query toning done or completely disabled the animation in cases where the user may have these options enabled/disabled.
 
-```
+```css
 @media (prefers-reduced-motion) {
-    .animation {
-        // Or which ever name you have to turn off the animation animation-name: disabled;
-    }
+	.animation {
+		// Or which ever name you have to turn off the animation animation-name: disabled;
+	}
 }
 ```
 
@@ -79,19 +77,19 @@ Another important media feature to consider for users that may have some sensiti
 
 Here is a pure CSS example:
 
-```
+```css
 @media (prefers-color-scheme: dark) {
-    // ...dark theme styling
+	// ...dark theme styling
 }
 
-@media(prefers-color-scheme: light) {
-   // ...light theme styling
+@media (prefers-color-scheme: light) {
+	// ...light theme styling
 }
 ```
 
 ### Responsive Design: Media and Viewport
 
-### Media
+#### Media
 
 We’ll start off with some of the initial configurations that can be done for the web page. Stylesheets have a little-known property called **media**. This can have the following values:
 
@@ -105,7 +103,7 @@ This can also be applied with media properties:
 }
 ```
 
-### Viewport
+#### Viewport
 
 The viewport is what you’re most likely looking at right now. It’s the window within which the web content is displayed. On smaller devices, there is typically a virtual viewport that scales down the web content to fit on smaller devices.
 

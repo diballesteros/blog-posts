@@ -7,11 +7,13 @@ categories:
     - react
 ---
 
-## How to easily add dark mode to a React app
+### Introduction
 
 One of the most common UX requirements for an app is to add a way to toggle a dark mode for the user. Using React and just plain ol’ CSS this is easily achieved! This article assumes you have a basic understanding of React hooks.
 
-Typically you would want to set the dark mode colors throughout the entire app to affect various different colors. In standard CSS there exist [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties). We can use these to change the colors of our entire app!
+Typically you would want to set the dark mode colors throughout the entire app to affect various different colors.
+
+In standard CSS there exist [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties). We can use these to change the colors of our entire app!
 
 ### Code-along
 

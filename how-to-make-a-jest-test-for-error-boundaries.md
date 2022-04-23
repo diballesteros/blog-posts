@@ -8,7 +8,7 @@ categories:
     - react
 ---
 
-## How to make a Jest Test for Error Boundaries
+### Introduction
 
 **Own your error**
 

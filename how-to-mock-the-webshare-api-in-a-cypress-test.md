@@ -7,7 +7,7 @@ categories:
     - testing
 ---
 
-## How to mock the Webshare API for a Cypress Test
+### Introduction
 
 [Cypress](https://www.cypress.io/) is a very robust testing framework with a ton of utilities. It has been my go-to option for all my side projects where I think extensive integration testing is necessary. In one of my apps, I offer the ability to share images using the [WebShare](https://web.dev/web-share/) API. In order to properly test this, I decided to investigate how to test this using Cypress!
 

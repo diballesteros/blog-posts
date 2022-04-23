@@ -7,12 +7,14 @@ categories:
     - react
 ---
 
-## My experience migrating a React App from Create-React-App 4 to 5
+### Introduction
 
 ![React photo](https://cdn.hashnode.com/res/hashnode/image/upload/v1641140789138/CLjlg8feL.jpeg)
 _Photo by Lautaro Andreani on Unsplash_
 
-Recently the team behind [Create-React-App](https://create-react-app.dev/) updated the package from version 4 to 5. You can see a full list of changes right [here](https://github.com/facebook/create-react-app/releases). This fixed a lot of outdated dependencies, gave support to Tailwind, updated Webpack, and a bunch of other changes. This article addresses how I went about the process and all the small little problems I ran into along the way.
+Recently the team behind [Create-React-App](https://create-react-app.dev/) updated the package from version 4 to 5. You can see a full list of changes right [here](https://github.com/facebook/create-react-app/releases). This fixed a lot of outdated dependencies, gave support to Tailwind, updated Webpack, and a bunch of other changes.
+
+This article addresses how I went about the process and all the small little problems I ran into along the way.
 
 ### Updating
 
@@ -51,15 +53,16 @@ Luckily enough in the error message itself the file that was being affected was 
 
 This one was fairly simple to solve as the error message itself indicated the solution, just have to change the relative path to an absolute path. So this:
 
-```
+```css
 @use 'styles/mixins';
 @import 'styles/variables';
 ```
 
 changed to this:
 
-```
-@use 'src/styles/mixins'; @import 'src/styles/variables';
+```css
+@use 'src/styles/mixins';
+@import 'src/styles/variables';
 ```
 
 My final error was:
@@ -71,7 +74,7 @@ This error is in reference to ESLint, from what I could gather their internal ES
 
 I use a variety of extensions but I left it as follows, removing “react” and adding in “react-app”
 
-```
+```json
 "extends": [
 "react-app",
 ...Other dependencies

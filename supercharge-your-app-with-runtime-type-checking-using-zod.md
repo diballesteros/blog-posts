@@ -7,7 +7,7 @@ categories:
     - typescript
 ---
 
-## Supercharge your app with runtime type-checking using ZOD
+### Introduction
 
 Type-checking in Javascript applications is becoming more and more normalized with Typescript. However, one common complaint of Typescript is that it doesn’t ensure type-safety in a runtime environment. [ZOD](https://github.com/colinhacks/zod) can solve these issues, as it offers type-safety checks at runtime, take note that this works in conjunction with Typescript!
 
@@ -27,19 +27,19 @@ Sweet! The amazing thing about this is that it works in runtime so we can feel c
 
 Let’s go ahead and first install the library:
 
-```
+```bash
 npm install zod typescript
 ```
 
 Make sure that in your tsconfig.json that the compiler has the strict option set to true.
 
-```
+```json
 {
-    // ...
-    "compilerOptions": {
-        // ...
-        "strict": true
-    }
+	// ...
+	"compilerOptions": {
+		// ...
+		"strict": true
+	}
 }
 ```
 
@@ -67,4 +67,4 @@ And that’s it! It’s a very simple library to implement but you can see great
 
 Here is a small sandbox with an example of the code above. There are two buttons to test out both requests and how the schema parses the code.
 
-[https://codesandbox.io/embed/zod-type-check-09g3c?fontsize=14&hidenavigation=1&theme=dark](https://codesandbox.io/embed/zod-type-check-09g3c?fontsize=14&hidenavigation=1&theme=dark)
+%[https://codesandbox.io/embed/zod-type-check-09g3c?fontsize=14&hidenavigation=1&theme=dark]

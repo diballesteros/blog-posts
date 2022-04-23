@@ -7,8 +7,6 @@ categories:
     - performance
 ---
 
-## How to supercharge your HTML link tag with these four tricks
-
 ### Introduction
 
 The HTML link tag is one of the first tags everyone learns about when first diving into HTML. The most common use case is to just load up a stylesheet and forget it about.
@@ -48,11 +46,11 @@ What is considered idle time? Per the official MDN docs:
 
 > _In the current implementation (Mozilla 1.2), idle time is determined using the_ _nsIWebProgressListener API. We attach a listener to the toplevel_ _nsIWebProgress object ("@mozilla.org/docloaderservice;1"). From this, we receive document start & stop notifications, and we approximate idle time as the period between the last document stop and the next document start. The last document stop notification occurs roughly when the onLoad handler would fire for the toplevel document. This is when we kick off prefetch requests. If a subframe contains prefetching hints, prefetching will not begin until the top-most frame and all its "child" frames finish loading._
 
-> [_https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ_](https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ)
+[_https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ_](https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ)
 
 ### Link tag attribute: media
 
-### Media
+#### Media
 
 The link tags can contain a media attribute to specify what type of screen should be handling it:
 
@@ -79,7 +77,7 @@ However, this media attribute can also be used for different screen sizes and ca
 <link rel="preload" href="HUGE.png" as="image" media="(min-width: 601px)" />
 ```
 
-### Link tag attribute: alternate
+#### Link tag attribute: alternate
 
 Did you know you can provide alternate stylesheets to the user? The link tag property rel can have a suffix word: **alternate**. This word can specify a different stylesheet for the user to use.
 

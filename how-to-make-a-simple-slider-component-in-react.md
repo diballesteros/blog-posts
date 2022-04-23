@@ -7,7 +7,7 @@ categories:
     - react
 ---
 
-## How to make a simple slider component in React
+### Introduction
 
 A very common component to use in forms or to receive numeric input with a non-arbitrary range is to use a slider component. However, this can easily be done with some basic HTML and CSS whilst adding some react-y props.
 
@@ -19,7 +19,7 @@ This is how it normally looks:
 
 HTML Input type range
 
-```
+```html
 <input type="range" />
 ```
 
@@ -29,14 +29,14 @@ However, while this may fulfill the slider component necessity there are a few t
 
 Let’s dig into the CSS
 
-```
-input\[type='range'\] {
-    -webkit-appearance: none;
-    height: 7px;
-    background: grey;
-    border-radius: 5px;
-    background-image: linear-gradient(#D46A6A, #D46A6A);
-    background-repeat: no-repeat;
+```css
+input[type='range'] {
+	-webkit-appearance: none;
+	height: 7px;
+	background: grey;
+	border-radius: 5px;
+	background-image: linear-gradient(#d46a6a, #d46a6a);
+	background-repeat: no-repeat;
 }
 ```
 
@@ -48,15 +48,15 @@ This first bit of styling is to target the bar targeting the color and shape:
 
 However it still looks a bit awkward with the circle being of a different color, we can target this portion with a selector: -webkit-slider-thumb
 
-```
-input\[type='range'\]::-webkit-slider-thumb {
-   \-webkit-appearance: none;
-   height: 20px;
-   width: 20px;
-   border-radius: 50%;
-   background: #D46A6A;
-   cursor: pointer;
-   box-shadow: 0 0 2px 0 #555;
+```css
+input[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background: #d46a6a;
+	cursor: pointer;
+	box-shadow: 0 0 2px 0 #555;
 }
 ```
 
@@ -68,33 +68,35 @@ Simple enough we just make the circle a bit bigger and change the color to match
 
 However its not very clear what part of the bar is being filled, so let’s change that by changing the track of the slider:
 
-```
-input\[type="range"\]::-webkit-slider-runnable-track {
-   \-webkit-appearance: none;
-   box-shadow: none;
-   border: none;
-   background: transparent;
+```css
+input[type='range']::-webkit-slider-runnable-track {
+	-webkit-appearance: none;
+	box-shadow: none;
+	border: none;
+	background: transparent;
 }
 ```
 
 But, we also need a way to calculator the current background size of the bar:
 
-```
-const \[value, setValue\] = useState(0);
-   const MAX = 10;
-   const getBackgroundSize = () => {
-   return {
-      backgroundSize: \`${(value \* 100) / MAX}% 100%\`
-   };
+```js
+const [value, setValue] = useState(0);
+const MAX = 10;
+const getBackgroundSize = () => {
+	return {
+		backgroundSize: `${(value * 100) / MAX}% 100%`,
+	};
 };
 ```
 
-```
-<input type="range"
-min="0"
-max={MAX}
-onChange={(e) => setValue(e.target.value)}
-style={getBackgroundSize()} value={value}
+```jsx
+<input
+	type="range"
+	min="0"
+	max={MAX}
+	onChange={(e) => setValue(e.target.value)}
+	style={getBackgroundSize()}
+	value={value}
 />
 ```
 
@@ -124,13 +126,13 @@ input\[type="range"\]::-webkit-slider-thumb:active {
 
 As well as adding some transition styling to the thumb itself:
 
-```
-input\[type="range"\]::-webkit-slider-thumb {
-// ...other styles;
-    transition: background 0.3s ease-in-out;
+```css
+input[type='range']::-webkit-slider-thumb {
+	// ...other styles;
+	transition: background 0.3s ease-in-out;
 }
 ```
 
 And that’s it! Here is a fully working example:
 
-<iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fcodesandbox.io%2Fembed%2Fk868o&amp;display_name=CodeSandbox&amp;url=https%3A%2F%2Fcodesandbox.io%2Fs%2Fk868o&amp;image=https%3A%2F%2Fcodesandbox.io%2Fapi%2Fv1%2Fsandboxes%2Fk868o%2Fscreenshot.png&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=codesandbox" width="1000" height="500" frameborder="0" scrolling="no"><a href="https://medium.com/media/875dfac8c2b85eba52e8d01714692b50/href">https://medium.com/media/875dfac8c2b85eba52e8d01714692b50/href</a></iframe>
+%[https://codesandbox.io/embed/react-slider-k868o?fontsize=14&hidenavigation=1&theme=dark]

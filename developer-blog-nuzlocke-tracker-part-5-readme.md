@@ -8,7 +8,7 @@ categories:
     - devlog
 ---
 
-## Developer Blog: Nuzlocke Tracker — Part 5 — README
+### Introduction
 
 ![splash](https://cdn.hashnode.com/res/hashnode/image/upload/v1641742150770/O01NPO-hM.jpeg)
 _Photo by Studio Media on Unsplash_
