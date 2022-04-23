@@ -16,7 +16,7 @@ Part one [here](https://relatablecode.com/developer-blog-nuzlocke-tracker-part-o
 
 Now that the project structure was done the next step was determining how exactly to build the tracker. Normally, when doing this I figure the best initial step is to figure out how the layout will go.
 
-## The Page Layout
+### The Page Layout
 
 This is the finished product but initially, I split up the page into two portions: header and tracker. This page layout seemed optimal for desktop and mobile implementation.
 
@@ -24,7 +24,7 @@ For the time being, I have no plans on hooking this up to a database so I figure
 
 Also, as it is quite popular I also wanted to include a dark mode button to switch the color scheme of the app.
 
-## The Tracker
+### The Tracker
 
 Time for the meat of the application, the actual list of the encounters. As this was going to be a fairly large list with a lot of DOM elements I decided on using [react-window](rhttps://react-window.vercel.app/#/examples/list/fixed-size) for virtualization.
 
@@ -32,7 +32,7 @@ While doing my own runs I constantly looked up the level caps for the gym leader
 
 An encounter list is basically a large CRUD operation so I decided to include buttons for deleting, adding, and editing the encounters. As well as a search bar encounter lists can get pretty long and tedious to look through.
 
-## The component library
+### The component library
 
 Now that I had the initial idea for how to build the app I went through various component libraries to streamline the process. I needed a dropdown that not only could I search through but that I could also display the image of the Pokémon.
 
