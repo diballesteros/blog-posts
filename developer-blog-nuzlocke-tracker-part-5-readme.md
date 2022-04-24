@@ -33,11 +33,13 @@ I split this section up into two sections. A quick list of the main features of 
 
 I upload the necessary gifs and images and simply link them through the markdown:
 
-```
+```md
 <!-- Example Gif -->
+
 ![til](https://cdn.hashnode.com/res/hashnode/image/upload/v1641742153586/vqNTttGTF.gif)
 
 <!-- Example Image -->
+
 ![Imgur Image](https://cdn.hashnode.com/res/hashnode/image/upload/v1641742155213/ksJzopDyo.png)
 ```
 

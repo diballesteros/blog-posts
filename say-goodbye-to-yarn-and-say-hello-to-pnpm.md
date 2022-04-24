@@ -13,7 +13,7 @@ PNPM is a package manager that I have seen floating around for quite some time n
 
 > Files inside node_modules are linked from a single content addressable storage
 
-> [_https://pnpm.io/_](https://pnpm.io/)
+[_https://pnpm.io/_](https://pnpm.io/)
 
 Cool so all projects share the same node_modules. But…. let’s make this more interesting. I’ll take a small folder I have with 5 projects or so. Hook it up to **pnpm** and see the size difference.
 
