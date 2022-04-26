@@ -24,7 +24,7 @@ This can be achieved through a variety of different techniques. [Flexbox](https:
 
 One helpful video I’ve seen that clearly explains several responsive layouts is this one from Google:
 
-%[https://www.youtube.com/watch?v=qm0IfG1GyZU]
+https://www.youtube.com/watch?v=qm0IfG1GyZU
 
 These are only some layouts. But essentially we want our page to be _fluid_.
 

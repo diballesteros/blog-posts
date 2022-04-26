@@ -38,7 +38,7 @@ Now that I had the initial idea for how to build the app I went through various 
 
 From what I saw Material-UI, ANT, ChakraUI, amongst many others, did not offer me this possibility. I thought I would have to build my own component but then I came across Semantic-UI with this neat dropdown component:
 
-%[https://codesandbox.io/embed/pokemon-dropdown-dn2sz?fontsize=14&hidenavigation=1&theme=dark]
+https://codesandbox.io/embed/pokemon-dropdown-dn2sz?fontsize=14&hidenavigation=1&theme=dark
 
 That is an example of how it would look with the pokémon images.
 

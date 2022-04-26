@@ -135,4 +135,4 @@ input[type='range']::-webkit-slider-thumb {
 
 And that’s it! Here is a fully working example:
 
-%[https://codesandbox.io/embed/react-slider-k868o?fontsize=14&hidenavigation=1&theme=dark]
+https://codesandbox.io/embed/react-slider-k868o?fontsize=14&hidenavigation=1&theme=dark

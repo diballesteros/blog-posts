@@ -67,4 +67,4 @@ And that’s it! It’s a very simple library to implement but you can see great
 
 Here is a small sandbox with an example of the code above. There are two buttons to test out both requests and how the schema parses the code.
 
-%[https://codesandbox.io/embed/zod-type-check-09g3c?fontsize=14&hidenavigation=1&theme=dark]
+https://codesandbox.io/embed/zod-type-check-09g3c?fontsize=14&hidenavigation=1&theme=dark
