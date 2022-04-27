@@ -150,4 +150,4 @@ const headerStyle = useSpring({
 
 And that’s it! Here’s the working example:
 
-%[https://codesandbox.io/embed/trigger-react-spring-in-view-c5e76?fontsize=14&hidenavigation=1&theme=dark]
+https://codesandbox.io/embed/trigger-react-spring-in-view-c5e76?fontsize=14&hidenavigation=1&theme=dark

@@ -27,7 +27,7 @@ By contrast, an image that is purely for aesthetic reasons should probably be om
 
 One small tip that isn’t widely known is that you can quickly add responsive attributes to images using the **srcset** and responsive attributes.
 
-%[https://codepen.io/pixelstrolch/pen/yVbdea]
+https://codepen.io/pixelstrolch/pen/yVbdea
 
 See the Pen [Srcset Demo](https://codepen.io/pixelstrolch/pen/yVbdea) by Stefan Brechbühl ([@pixelstrolch](https://codepen.io/pixelstrolch)) on [CodePen](https://codepen.io).
 

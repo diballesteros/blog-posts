@@ -43,4 +43,4 @@ With this, we are grouping up the columns by 8 and only coloring the second grou
 
 Here is the provided example:
 
-[https://codesandbox.io/embed/jolly-nobel-27rtv?fontsize=14&hidenavigation=1&theme=dark](https://codesandbox.io/embed/jolly-nobel-27rtv?fontsize=14&hidenavigation=1&theme=dark)
+https://codesandbox.io/embed/jolly-nobel-27rtv?fontsize=14&hidenavigation=1&theme=dark

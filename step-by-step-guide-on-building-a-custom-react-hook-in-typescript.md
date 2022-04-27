@@ -58,4 +58,4 @@ And that’s it! Hooks are a great way to abstract logic used in react component
 
 Here’s an example of the hook in action:
 
-%[https://codesandbox.io/embed/use-toggle-wbzlso?fontsize=14&hidenavigation=1&theme=dark]
+https://codesandbox.io/embed/use-toggle-wbzlso?fontsize=14&hidenavigation=1&theme=dark

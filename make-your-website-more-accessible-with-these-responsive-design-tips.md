@@ -48,7 +48,7 @@ Here is an example:
 
 There is a famous bug with safari that made this kind of media query a risk to do for users of this browser. But at the time of writing this article, there are still some inconsistencies. Credits to @thecodercoder in this Twitter thread for some visual examples:
 
-%[https://twitter.com/thecodercoder/status/1502131251481829387?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1502131251481829387%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Frelatablecode.com%2Fmake-your-website-more-accessible-with-these-responsive-design-tips%2F]
+https://twitter.com/thecodercoder/status/1502131251481829387?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1502131251481829387%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Frelatablecode.com%2Fmake-your-website-more-accessible-with-these-responsive-design-tips%2F
 
 Does anyone use em units in their media queries? I’ve noticed that most websites (including big popular ones and frameworks) seem to all use pixels.
 

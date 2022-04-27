@@ -133,4 +133,4 @@ And with that, we’re done!
 
 Heres a working example of the code:
 
-%[https://codesandbox.io/embed/sidedrawer-react-spring-klkf2?fontsize=14&hidenavigation=1&theme=dark]
+https://codesandbox.io/embed/sidedrawer-react-spring-klkf2?fontsize=14&hidenavigation=1&theme=dark

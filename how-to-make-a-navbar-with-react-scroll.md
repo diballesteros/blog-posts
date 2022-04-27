@@ -113,4 +113,4 @@ section {
 
 Check out the full working example and the rest of the styles applied:
 
-%[https://codesandbox.io/embed/react-navbar-gzext?fontsize=14&hidenavigation=1&theme=dark]
+https://codesandbox.io/embed/react-navbar-gzext?fontsize=14&hidenavigation=1&theme=dark

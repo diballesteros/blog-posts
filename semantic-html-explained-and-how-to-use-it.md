@@ -75,6 +75,6 @@ A **nav** tag should contain within, navigation links that either navigate to ot
 
 Here is a small example. Not the prettiest but the main focus are the tags:
 
-%[https://codesandbox.io/s/semantic-html-bt8er?fontsize=14&hidenavigation=1&theme=dark]
+https://codesandbox.io/s/semantic-html-bt8er?fontsize=14&hidenavigation=1&theme=dark
 
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/diego-ballesteros-9468a7136/) or [Twitter](https://twitter.com/relatablecoder).

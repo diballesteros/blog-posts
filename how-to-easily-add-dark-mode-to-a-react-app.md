@@ -113,4 +113,4 @@ React.useEffect(() => {
 
 And that’s everything! Let’s check it out in a working example:
 
-%[https://codesandbox.io/embed/react-dark-mode-sczpn?fontsize=14&hidenavigation=1&theme=dark]
+https://codesandbox.io/embed/react-dark-mode-sczpn?fontsize=14&hidenavigation=1&theme=dark

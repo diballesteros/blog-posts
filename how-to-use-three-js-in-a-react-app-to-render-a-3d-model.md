@@ -91,4 +91,4 @@ I obtained the model freely from the following site:
 
 And that’s it! Here is the full code and final result with everything all hooked up. Any model can be used. I encourage others to experiment with it and play around with the values!
 
-%[https://codesandbox.io/embed/react-three-render3d-qobqy?fontsize=14&hidenavigation=1&theme=dark]
+https://codesandbox.io/embed/react-three-render3d-qobqy?fontsize=14&hidenavigation=1&theme=dark

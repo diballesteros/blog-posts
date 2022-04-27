@@ -38,29 +38,31 @@ The best way to think of this is a gigantic try catch for your components to han
 
 I made a slight modification to the component that is returned by the Error Boundary:
 
+```js
 <h1 data-testid="errorboundary">Something went wrong.</h1>
+```
 
 The following is an example of how to create the test:
 
-```
+```js
 import { render, screen } from '@testing-library/react';
 import ErrorBoundary from './ErrorBoundary';
 import '@testing-library/jest-dom';
 
 describe('Error Boundary', () => {
-  test('Error Boundary', () => {
-    const ThrowError = () => {
-      throw new Error('Test');
-    };
+	test('Error Boundary', () => {
+		const ThrowError = () => {
+			throw new Error('Test');
+		};
 
-  render(
-    <ErrorBoundary fallback={<ErrorBoundary />}>
-      <ThrowError />
-    </ErrorBoundary>
-  );
+		render(
+			<ErrorBoundary fallback={<ErrorBoundary />}>
+				<ThrowError />
+			</ErrorBoundary>
+		);
 
-expect(screen.getByTestId('errorboundary')).toBeVisible();
-  });
+		expect(screen.getByTestId('errorboundary')).toBeVisible();
+	});
 });
 ```
 
