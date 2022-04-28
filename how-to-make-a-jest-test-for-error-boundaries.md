@@ -6,6 +6,7 @@ description: How to quickly make a Jest Test for React applications to test the 
 categories:
     - testing
     - react
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651103664565/g6zQhwqdI.png
 ---
 
 ### Introduction

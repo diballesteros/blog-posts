@@ -6,6 +6,7 @@ description: A step-by-step guide on how to effectively create a custom React ho
 categories:
     - react
     - typescript
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651102787778/bnu2X3X3z.png
 ---
 
 ### Introduction

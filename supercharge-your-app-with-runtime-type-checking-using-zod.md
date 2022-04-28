@@ -5,6 +5,7 @@ published: true
 description: How to quickly supercharge the type checking in your web application by using ZOD and Typescript. However, it has the added benefit of working in runtime!
 categories:
     - typescript
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651103068400/wCrFnBb3m.png
 ---
 
 ### Introduction

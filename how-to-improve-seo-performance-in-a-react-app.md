@@ -5,6 +5,7 @@ published: true
 description: How to improve SEO performance in a React app made by create-react-app with hosting configurations, metadata and integrations with various search engines
 categories:
     - react
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1641140789138/CLjlg8feL.jpeg
 ---
 
 ### Introduction

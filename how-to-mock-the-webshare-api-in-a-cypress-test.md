@@ -5,6 +5,7 @@ published: true
 description: How to make a Cypress test to mock the WebShare API and test the after-effects correctly. In this guide, we will check in case it does and doesn't load.
 categories:
     - testing
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651103456927/377xNku2p.png
 ---
 
 ### Introduction

@@ -5,6 +5,7 @@ published: true
 description: How to create react and react-spring to create a stunning side drawer component using typescript. Includes an overlay and animations.
 categories:
     - react
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651104897444/qLXiYp1Lo.png
 ---
 
 ### Introduction

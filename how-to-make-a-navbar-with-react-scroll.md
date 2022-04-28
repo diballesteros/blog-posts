@@ -5,6 +5,7 @@ published: true
 description: How to build a fluid navbar component in react with built-in scroll to behavior using react JS and react-scroll
 categories:
     - react
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1649265442716/Vniq7BBDF.png)
 ---
 
 ### Introduction

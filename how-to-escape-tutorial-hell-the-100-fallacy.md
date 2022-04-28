@@ -5,6 +5,7 @@ published: true
 description: When learning how to code it is very common to fall into tutorial hell. I'll go over my experience with tutorial hell and how I managed to escape it.
 categories:
     - devlog
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651102690435/b47MzXqMq.png
 ---
 
 ### Introduction

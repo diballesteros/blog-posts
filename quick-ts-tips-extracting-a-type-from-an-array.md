@@ -5,6 +5,7 @@ published: true
 description: A quick and easy Typescript tutorial on how to extract a type from an array of types using conditional typing and the infer keyword
 categories:
     - typescript
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651103541108/ihtOXnjG5.png
 ---
 
 ### Introduction

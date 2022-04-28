@@ -6,12 +6,10 @@ description: How to quickly and easily set up a personalized error entry with mo
 categories:
     - testing
     - tooling
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1643569612712/3UQmQ56rH.jpeg
 ---
 
 ### Introduction
-
-![Ladybug](https://cdn.hashnode.com/res/hashnode/image/upload/v1643569612712/3UQmQ56rH.jpeg)
-_Photo by Ritchie Valens on Unsplash_
 
 A while back I decided to implement [Sentry](https://sentry.io/welcome/) into my web app. This turned out to be a huge boon to the way I’m able to debug or even catch several bugs!
 

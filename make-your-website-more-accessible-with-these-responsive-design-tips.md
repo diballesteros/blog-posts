@@ -5,6 +5,7 @@ published: true
 description: The third article in my series. In this post, I cover how to effectively use responsive design to create a more accessible website.
 categories:
     - a11y
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651102625484/xwH_jM1RO.png
 ---
 
 ### Introduction

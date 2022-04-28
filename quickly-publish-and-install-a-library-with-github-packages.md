@@ -6,6 +6,7 @@ description: How to publish a react library for free using the built-in function
 categories:
     - react
     - tooling
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651101763682/i-AcasCdR.png
 ---
 
 ### Introduction

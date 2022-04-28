@@ -5,6 +5,7 @@ published: true
 description: A step-by-step guide on how to find a list of issues for open source projects, choose one, make your first open-source contribution and get it approved.
 categories:
     - devlog
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651102843533/c46u5b3hD.png
 ---
 
 ### Introduction

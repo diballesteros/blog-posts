@@ -6,6 +6,7 @@ description: How to easily deploy web app as a PWA (Progressive Web App) to the 
 categories:
     - devlog
     - devops
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651104023812/nz2Gj2S5o.png
 ---
 
 ### Introduction

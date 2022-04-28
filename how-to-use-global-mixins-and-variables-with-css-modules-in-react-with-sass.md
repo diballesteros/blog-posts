@@ -6,6 +6,7 @@ description: How to easily create and use global SASS variables and mixins in a 
 categories:
     - css
     - react
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651103618850/bWOMopZaZ.png
 ---
 
 ### Introduction

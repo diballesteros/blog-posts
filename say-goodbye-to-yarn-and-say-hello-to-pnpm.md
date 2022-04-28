@@ -5,6 +5,7 @@ published: true
 description: A short article on my experience using PNPM. I compare the size difference to the files before and after installing PNPM.
 categories:
     - tooling
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651101642275/Ji3rcAYDX.png
 ---
 
 ### Introduction

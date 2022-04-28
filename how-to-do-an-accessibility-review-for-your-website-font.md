@@ -5,6 +5,7 @@ published: true
 description: How to do a thorough accessibility review for your website. In this article, we cover how to handle font size, font color, and font style.
 categories:
     - a11y
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651102741552/urCqkPmJn.png
 ---
 
 ### Introduction

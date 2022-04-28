@@ -5,6 +5,7 @@ published: true
 description: 2021's State of JavaScript Survey released its results and although there isn't anything ground-shattering there are a few important takeaways to keep in mind
 categories:
     - react
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651102972692/1vOOB3W2y.png
 ---
 
 ### Introduction

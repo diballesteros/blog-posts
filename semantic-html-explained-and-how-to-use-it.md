@@ -5,6 +5,7 @@ published: true
 description: What are Semantic HTML elements? When looking at one it seems like any other HTML tag, however, its intended use is clearer to the browser.
 categories:
     - a11y
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651103021693/QcdFX5oEb.png
 ---
 
 ### Introduction

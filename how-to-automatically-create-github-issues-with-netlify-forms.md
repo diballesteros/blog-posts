@@ -5,6 +5,7 @@ published: true
 description: How to easily automatically create Github Issues with Netlify forms and an integration with Zapier in less than five minutes!
 categories:
     - devops
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651103914314/Uvn3PUy8n.png
 ---
 
 ### Introduction

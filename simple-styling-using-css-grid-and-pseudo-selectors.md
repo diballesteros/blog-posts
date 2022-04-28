@@ -5,6 +5,7 @@ published: true
 description: How to quickly code up simple styling for a CSS grid layout and pseudo-selectors to apply different styling to column groups
 categories:
     - css
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651103576510/S9SjHfdhk.png
 ---
 
 ### Introduction

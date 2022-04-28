@@ -5,6 +5,7 @@ published: true
 description: A short article describing my experience doing 20 coffee chats over a weekend with aspiring developers in the 100Devs community.
 categories:
     - devlog
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651102884579/Afqf9OTdQ.png
 ---
 
 ### Introduction

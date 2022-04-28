@@ -6,6 +6,7 @@ description: How to easily integrate Cypress and Codecov in a React app in a CI/
 categories:
     - testing
     - react
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1638468811165/SCsuy83xe2.png
 ---
 
 ### Introduction

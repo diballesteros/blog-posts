@@ -6,6 +6,7 @@ description: First in the series of a developer blog chronicling my experience c
 categories:
     - react
     - devlog
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1649267025574/Gv2pSy394.png
 ---
 
 ### Introduction

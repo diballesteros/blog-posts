@@ -5,12 +5,10 @@ published: true
 description: My ongoing series of typescript tips. A short tutorial on how to extract the return type from a function into its own type, useful for post-manipulated data.
 categories:
     - typescript
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1639313427202/iiID9_Z1T.jpeg
 ---
 
 ### Introduction
-
-![Splash](https://cdn.hashnode.com/res/hashnode/image/upload/v1639313427202/iiID9_Z1T.jpeg)
-_Photo by Spencer Davis on Unsplash_
 
 As part of an ongoing series of tips, I’m documenting some TS Tips.
 

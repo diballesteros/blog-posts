@@ -5,6 +5,7 @@ published: true
 description: A short tutorial on how to quickly and easily add error tracking and performance monitoring with the Sentry library in a React app
 categories:
     - react
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651103796841/R96urmHj2.png
 ---
 
 ### Introduction

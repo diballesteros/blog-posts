@@ -5,6 +5,7 @@ published: true
 description: How to quickly configure ESlint for import sorting using sort-imports and eslint-plugin-import with the import/orders rule.
 categories:
     - tooling
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1633878320428/4iT3fpY3R.jpeg
 ---
 
 ### Introduction

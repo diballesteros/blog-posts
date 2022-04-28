@@ -5,6 +5,7 @@ published: true
 description: How to make a simple slider component in React using the native Html INPUT element and some CSS styling with a little bit of Javascript.
 categories:
     - react
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651103847988/IPmjdjoTV.png
 ---
 
 ### Introduction

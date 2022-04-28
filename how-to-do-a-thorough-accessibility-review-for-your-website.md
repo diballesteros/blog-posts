@@ -5,6 +5,7 @@ published: true
 description: An article on how to do a robust review of accessibility on your website using the following techniques keyboard navigation, screen readers, and lighthouse.
 categories:
     - a11y
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651102923882/GP1Y4tWyM.png
 ---
 
 ### Introduction

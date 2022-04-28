@@ -5,12 +5,10 @@ published: true
 description: How to quickly set up localizations and translations with react-i18next and i18next framework in a React web application using hooks.
 categories:
     - react
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1642957781512/XSglqhZVW.jpeg
 ---
 
 ### Introduction
-
-![Communication image](https://cdn.hashnode.com/res/hashnode/image/upload/v1642957781512/XSglqhZVW.jpeg)
-_Photo by Headway on Unsplash_
 
 One of the features requested for a personal app of mine was to add multiple languages! Namely German and Spanish. So I decided to go ahead and learn [react-i18next](https://react.i18next.com/).
 

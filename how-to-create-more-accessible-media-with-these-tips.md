@@ -5,6 +5,7 @@ published: true
 description: Images, audio, and video are becoming more common ways to consume content on the web. Use these tips to make sure everyone can enjoy accessible media!
 categories:
     - a11y
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651102563790/1e_EP2SjM.png
 ---
 
 ### Introduction

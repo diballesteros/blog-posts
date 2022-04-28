@@ -5,12 +5,10 @@ published: true
 description: Blog post on how to quickly make a cypress end-to-end test for checking if the dark mode styles are applied if the user has set prefers-color-scheme dark.
 categories:
     - testing
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1639932516028/v5wJOpkTs.jpeg
 ---
 
 ### Introduction
-
-![Darkmode](https://cdn.hashnode.com/res/hashnode/image/upload/v1639932516028/v5wJOpkTs.jpeg)
-_Photo by Terry Vlisidis on Unsplash_
 
 Taking into account the user’s preferences before the page loads are becoming more important every day to deliver the best possible experience out-of-the-box. One such option is the CSS [media feature](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) of prefers-color-scheme. This can be set up through the operating system or user agent setting.
 

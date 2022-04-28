@@ -5,12 +5,10 @@ published: true
 description: How I migrated my react application from version four of create-react-app to version five and the errors and warnings I resolved along the way
 categories:
     - react
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1641140789138/CLjlg8feL.jpeg
 ---
 
 ### Introduction
-
-![React photo](https://cdn.hashnode.com/res/hashnode/image/upload/v1641140789138/CLjlg8feL.jpeg)
-_Photo by Lautaro Andreani on Unsplash_
 
 Recently the team behind [Create-React-App](https://create-react-app.dev/) updated the package from version 4 to 5. You can see a full list of changes right [here](https://github.com/facebook/create-react-app/releases). This fixed a lot of outdated dependencies, gave support to Tailwind, updated Webpack, and a bunch of other changes.
 

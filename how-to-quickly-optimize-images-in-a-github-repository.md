@@ -5,12 +5,10 @@ published: true
 description: How to use ImgBot to optimize images in a GitHub repository. This will automatically create the pull request with reduced image sizes.
 categories:
     - devops
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1640538016259/Jfo2-WPTS.jpeg
 ---
 
 ### Introduction
-
-![Splash](https://cdn.hashnode.com/res/hashnode/image/upload/v1640538016259/Jfo2-WPTS.jpeg)
-_Photo by Erik Mclean on Unsplash_
 
 It can be pretty common to just have some images bundled up in the repository. Taking into consideration the size of said images can be incredibly important to lower the size of the entire page/web app.
 

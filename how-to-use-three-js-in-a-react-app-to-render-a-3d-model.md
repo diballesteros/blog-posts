@@ -5,12 +5,10 @@ published: true
 description: How to quickly set up localizations and translations with react-i18next and i18next framework in a React web application using hooks.
 categories:
     - react
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1644176957809/ZG0SuMgr5.jpeg
 ---
 
 ### Introduction
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1644176957809/ZG0SuMgr5.jpeg)
-_Photo by Mehmet Turgut Kirkgoz on Unsplash_
 
 While scouring YouTube I came across the following [video](https://www.youtube.com/watch?v=bSMZgXzC9AA) that is a fairly concise tutorial on how to build a neat-looking portfolio page. But one technology that was used was three.js to render a cool-looking 3D Model with camera controls!
 

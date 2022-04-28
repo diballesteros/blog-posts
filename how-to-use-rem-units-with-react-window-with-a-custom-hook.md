@@ -6,6 +6,7 @@ description: Short tutorial on how to use REM units with react-window by convert
 categories:
     - react
     - css
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1642351925382/-cUt_WlFz.jpeg
 ---
 
 ### Introduction

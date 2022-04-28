@@ -5,6 +5,7 @@ published: true
 description: How to trigger a react-spring animation when in view using React hooks. Using Intersection Observer and useSpring create a seamless animation when on screen
 categories:
     - react
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651104429605/NhNnm0FSM.png
 ---
 
 ### Introduction

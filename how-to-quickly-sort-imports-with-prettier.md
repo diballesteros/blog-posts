@@ -5,6 +5,7 @@ published: true
 description: Having disorganized imports can make it harder to sift through code or just makes our code unappealing. Prettier can help us sort and order imports.
 categories:
     - tooling
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651101842511/Ko39TrBPy.png
 ---
 
 ### Introduction

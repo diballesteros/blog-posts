@@ -5,6 +5,7 @@ published: true
 description: How to use lesser-known features of the HTML link tag to speed up and optimize website performance such as preload, prefetch, alternate, and media
 categories:
     - performance
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651102028308/jk8z98uGn.png
 ---
 
 ### Introduction

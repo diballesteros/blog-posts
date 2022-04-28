@@ -5,6 +5,7 @@ published: true
 description: How to share dynamically generated images in React to various social media sites, email, clipboard and various other options
 categories:
     - react
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651104183108/LniMoFS6s.png
 ---
 
 ### Introduction

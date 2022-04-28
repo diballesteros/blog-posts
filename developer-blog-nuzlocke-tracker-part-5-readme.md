@@ -6,12 +6,10 @@ description: Small explanation on how I constructed the README for my open sourc
 categories:
     - react
     - devlog
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1641742150770/O01NPO-hM.jpeg
 ---
 
 ### Introduction
-
-![splash](https://cdn.hashnode.com/res/hashnode/image/upload/v1641742150770/O01NPO-hM.jpeg)
-_Photo by Studio Media on Unsplash_
 
 It’s been a while since I added an entry to the series, for the past few months it’s mostly just been working through submitted bugs and added small features! But after some conversations, I figured I’d add another entry explaining the thought process for working through the README file.
 

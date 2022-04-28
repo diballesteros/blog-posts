@@ -5,6 +5,7 @@ published: true
 description: Change material Icon Theme, for visual studio code, and folder associations. Choose any icon to display in the file explorer.
 categories:
     - vscode
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1649284606138/cfwZqUEmT.png
 ---
 
 ### Introduction

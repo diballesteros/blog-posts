@@ -5,6 +5,7 @@ published: true
 description: A guide on how to generate the files necessary to upload and publish a progressive web app (PWA) to the iOS App Store using the PWABuilder
 categories:
     - tooling
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651103498581/c2Rcq2Wcl.png
 ---
 
 ### Introduction

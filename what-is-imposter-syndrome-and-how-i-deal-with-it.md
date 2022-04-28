@@ -5,6 +5,7 @@ published: true
 description: Imposter syndrome is a common feeling to have as a software developer even if you've been doing it for years. I go over my personal experiences with it.
 categories:
     - devlog
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651102112425/KKsbnfbCK.png
 ---
 
 ### Introduction
