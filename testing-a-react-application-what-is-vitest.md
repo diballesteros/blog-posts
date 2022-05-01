@@ -69,7 +69,7 @@ export default defineConfig({
 
 ### Commands
 
-### test and describe
+#### test and describe
 
 When you first open up a test file you’ll see one of two keywords: **test** and **describe**.
 
@@ -89,7 +89,7 @@ Its structure is very similar to test
 
 We can put our test inside of the describe function.
 
-### expect
+#### expect
 
 expect is the most crucial part of our test. It's what we expect the outcome of the test to be. For example, if we are doing some simple math:
 
@@ -104,7 +104,7 @@ Our tests will return success or failure based on our expect functions.
 
 Very easy to understand. But we are not limited to just equals there are a ton of expect functions. Find the full list [here](https://vitest.dev/api/#expect).
 
-### after and before
+#### after and before
 
 If there are some common actions we have to run before or after our tests then Vitest offers us the after and before keywords.
 
