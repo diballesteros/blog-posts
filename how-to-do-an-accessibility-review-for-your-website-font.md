@@ -94,5 +94,3 @@ That about wraps up fonts for now! In the next part of this series I plan to cov
 Hopefully, this served as a good introduction to making your site’s font more accessible. Leave any additional tips or feedback in the comments below.
 
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/diego-ballesteros-9468a7136/) or [Twitter](https://twitter.com/relatablecoder)
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/how-to-do-an-accessibility-review-for-your-website-font/) _on March 9, 2022._

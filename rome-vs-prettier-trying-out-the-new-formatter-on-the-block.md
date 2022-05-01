@@ -94,5 +94,3 @@ More content at [Relatable Code](https://relatablecode.com)
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/relatablecode) or [Twitter](https://twitter.com/relatablecoder)
 
 Check out my free developer roadmap and weekly tech industry news in my [newsletter](https://relatablecode.substack.com/).
-
-_Originally published at_ [_https://relatablecode.com_](https://relatablecode.com/rome-vs-prettier-trying-out-the-new-formatter-on-the-block/) _on April 13, 2022._
