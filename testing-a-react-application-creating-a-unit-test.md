@@ -1,8 +1,8 @@
 ---
-title: Testing a React Application What is Vitest?
+title: Testing a React Application Creating a Unit Test
 date: 2022-05-02
 published: true
-description: The third part of a series of articles on how to test a React Application. I go over how Vitest and its syntax work in the simplest terms.
+description: Unit tests are essential to ensuring confidence in the code we have written. In the fourth part of this series, I'll be going over how to write our first unit test and the thought process of how I decided what to test.
 categories:
     - testing
     - react
