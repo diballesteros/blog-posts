@@ -69,6 +69,8 @@ export default defineConfig({
 
 ### Commands
 
+The following are some common commands used in vitest
+
 #### test and describe
 
 When you first open up a test file you’ll see one of two keywords: **test** and **describe**.
