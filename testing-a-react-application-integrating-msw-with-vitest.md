@@ -129,7 +129,7 @@ afterAll(() => server.close());
 afterEach(() => server.resetHandlers());
 ```
 
-Now we're all set up and ready to test! Let's implement this in our **Vitest ** test.
+Now we're all set up and ready to test! Let's implement this in our **Vitest** test.
 
 ### Mocking our API request in Vitest
 
@@ -186,13 +186,19 @@ I downgraded it to 13.5.0 and called the click event directly from `userEvent`.
 
 You can find the entire project in this [repository with the updated list of dependencies](https://github.com/diballesteros/react-testing).
 
+Error message for those googling:
+
+```bash
+Error: The element(s) given to waitForElementToBeRemoved are already removed. waitForElementToBeRemoved requires that the element(s) exist(s) before waiting for removal.
+```
+
 ### Wrapping it up
 
 We now have a powerful tool at our disposal to mock requests as we continue to create unit tests! In the next article, we'll go over how to set up Cypress.io.
 
 More content at [Relatable Code](https://relatablecode.com)
 
-## Let's connect
+### Let's connect
 
 If you liked this feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/relatablecode) or [Twitter](https://twitter.com/relatablecoder)
 
