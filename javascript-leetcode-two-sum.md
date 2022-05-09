@@ -76,11 +76,11 @@ For example, when you first start iterating over the array you know the exact nu
 
 Let's take our first array as an example.
 
-![first iteration](https://cdn.hashnode.com/res/hashnode/image/upload/v1652015969006/18sS3y3d5.png align="left")
+![first iteration](https://cdn.hashnode.com/res/hashnode/image/upload/v1652015969006/18sS3y3d5.png)
 
 When we're on the first element `2` we know that we need to find as `9` minus `2` is 7. But, we need a way to quickly re-access data of the array.
 
-Introducting a Hash Table.
+Introducing a Hash Table.
 
 #### Hash Table
 
