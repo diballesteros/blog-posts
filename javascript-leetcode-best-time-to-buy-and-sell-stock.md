@@ -31,7 +31,7 @@ As with the previous problems the first apparent solution is to go for the brute
 
 A visual example of this could look like this:
 
-![JavaScript LeetCode](https://cdn.hashnode.com/res/hashnode/image/upload/v1652664600912/C-LyYbNTG.png align="left")
+![JavaScript LeetCode Best Time to buy and sell stock](https://cdn.hashnode.com/res/hashnode/image/upload/v1652664600912/C-LyYbNTG.png)
 
 ### First solution
 
