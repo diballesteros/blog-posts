@@ -48,6 +48,8 @@ And finally, since our concern isn’t with the backend or API but with the fron
 
 Here is a video directly from their landing page giving a brief introduction:
 
+https://www.youtube.com/watch?v=LcGHiFnBh3Y
+
 Cypress is a tool I can’t speak more highly of. As weird as it sounds it makes testing **fun**. The visual test runner makes it so easy to develop the tests as it can select elements and help you create selectors as you go. It comes with amazing Typescript support out of the box. The website documentation is on point. I’ll stop gushing about it now. 😢
 
 ### Unit Testing a React app: Vitest 🌽
