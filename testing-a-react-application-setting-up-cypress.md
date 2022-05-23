@@ -13,6 +13,8 @@ cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651098470347/9
 
 The sixth part of my ongoing series is on how to test a modern React application. This time I'll go over how to initially configure [Cypress](https://www.cypress.io/), our End-to-End testing framework.
 
+Check out the other parts here:
+
 [First part](https://relatablecode.com/testing-a-react-application-the-modern-approach)
 
 [Second part](https://relatablecode.com/testing-a-react-application-the-setup)
