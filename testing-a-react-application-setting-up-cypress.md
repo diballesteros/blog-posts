@@ -13,6 +13,16 @@ cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651098470347/9
 
 The sixth part of my ongoing series is on how to test a modern React application. This time I'll go over how to initially configure [Cypress](https://www.cypress.io/), our End-to-End testing framework.
 
+[First part](https://relatablecode.com/testing-a-react-application-the-modern-approach)
+
+[Second part](https://relatablecode.com/testing-a-react-application-the-setup)
+
+[Third part](https://relatablecode.com/testing-a-react-application-what-is-vitest)
+
+[Fourth part](https://relatablecode.com/testing-a-react-application-creating-a-unit-test)
+
+[Fifth part](https://relatablecode.com/testing-a-react-application-integrating-msw-with-vitest)
+
 In the previous parts of this series, I went over how to set up our [unit-testing framework with Vitest](https://relatablecode.com/testing-a-react-application-integrating-msw-with-vitest). Unit tests will cover more isolated and individual pieces of code like our functions or component-only tests if necessary.
 
 On the other hand, Cypress and its test will handle the other big chunk where we can really gain confidence that our tests will behave similarly to how a user would use the application. Just to catch up let's go over what our simple barebones app does.
