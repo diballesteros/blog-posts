@@ -5,7 +5,7 @@ published: true
 description: Burnout as a programmer is a serious issue that can produce stress and anxiety. In this article, I go over how I dealt with burnout and its side effects.
 categories:
     - devlog
-cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1651102112425/KKsbnfbCK.png
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1664236082124/JreEPSNjA.png
 ---
 
 ### Introduction
