@@ -114,7 +114,7 @@ jobs:
               uses: codecov/codecov-action@v3.1.0
 ```
 
-`UI Tests` will look for the GitHub action directly from Cypress to run our test in a chrome browser. Something very important to not is that in the `spec` property we specified only the test we created: `first-test.spec.js`.
+`UI Tests` will look for the GitHub action directly from Cypress to run our test in a chrome browser. Something very important to note is that in the `spec` property we specified only the test we created: `first-test.spec.js`.
 
 You can use an `*` to capture all files. For example: `cypress/integration/*`.
 
