@@ -145,7 +145,7 @@ export default {
 };
 ```
 
-Open the folder with vscode. In the bottom left of the vscode screen you should see a button with two arrows: ><
+Open the folder with vscode. In the bottom left of the vscode screen you should see a button with two arrows
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1666540407335/uMXkfB4y4.png)
 
