@@ -12,7 +12,7 @@ cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1652017295987/H
 
 LeetCode. An unfortunate truth of developer life is that for some job interviews it is necessary to learn Data structure and algorithms (DSA) in a specific way. A way in which you're expected to code up a solution to a DSA problem where you would otherwise google it.
 
-I say **_unfortunate _** because in most cases it is unnecessary to know them to the degree required for the technical interviews and hardly reflects actual job capability.
+I say **unfortunate** because in most cases it is unnecessary to know them to the degree required for the technical interviews and hardly reflects actual job capability.
 
 But I digress, LeetCode is a website that compiles tons of different DSA problems. I'll be going through several LeetCode problems over the next month, explaining and solving them, to help others out. And also it helps me to re-write the solution. 😎
 
@@ -101,15 +101,15 @@ But how do we create this hash table?
 ```javascript
 const hashTable = new Map();
 
-for(let i = 0; i < nums.length; i++) {
-  const num = nums[i];
-  const substractionWeWant = target - num;
+for (let i = 0; i < nums.length; i++) {
+	const num = nums[i];
+	const substractionWeWant = target - num;
 
-  if (hashTable.has(substractionGoal) {
-      return [i, hashTable.get(substractionGoal)];
-  } else {
-      hashTable.set(num, i);
-  }
+	if (hashTable.has(substractionWeWant)) {
+		return [i, hashTable.get(substractionWeWant)];
+	} else {
+		hashTable.set(num, i);
+	}
 }
 ```
 
