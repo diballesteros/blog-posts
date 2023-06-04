@@ -43,14 +43,14 @@ async function go() {
 
 			// All content refreshing goes through refresh-content.ts
 			const searchParams = new URLSearchParams([
-				['_data', 'routes/_content/refresh-content'],
+				['_data', 'routes/refresh-content'],
 			]);
 
 			// Set request options to our instance in fly.dev
 			const options = {
 				hostname: `${process.env.FLY_APP_NAME}.fly.dev`,
 				port: 443,
-				path: `/_content/refresh-content?${searchParams}`,
+				path: `/refresh-content?${searchParams}`,
 				method: 'POST',
 				headers: {
 					auth: process.env.REFRESH_TOKEN,
