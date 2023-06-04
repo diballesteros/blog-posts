@@ -59,7 +59,7 @@ var isAnagram = function (s, t) {
 		if (!hashTable[t[j]]) {
 			return false;
 		}
-		hashTable[s[j]]--;
+		hashTable[t[j]]--;
 	}
 
 	return true;
@@ -81,7 +81,7 @@ On the second iteration, we subtract all values. If no letter ever exists then w
 if (!hashTable[t[j]]) {
 	return false;
 }
-hashTable[s[j]]--;
+hashTable[t[j]]--;
 ```
 
 ### Let's connect
