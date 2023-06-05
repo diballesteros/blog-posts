@@ -12,7 +12,7 @@ async function go() {
 
 		// All content refreshing goes through refresh-content.ts
 		const searchParams = new URLSearchParams([
-			['_data', 'routes/refresh-content'],
+			['_data', '/refresh-content'],
 		]);
 
 		// Set request options to our instance in fly.dev
