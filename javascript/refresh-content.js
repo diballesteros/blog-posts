@@ -5,7 +5,7 @@ async function go() {
 	http = require('https');
 
 	const shaInfo = await fetchJSON({
-		url: `https://${process.env.FLY_APP_NAME}.fly.dev/refresh-content.json`,
+		url: `https://${process.env.FLY_APP_NAME}.fly.dev/_content/refresh-content.json`,
 	});
 	let sha = shaInfo?.sha;
 
@@ -43,14 +43,14 @@ async function go() {
 
 			// All content refreshing goes through refresh-content.ts
 			const searchParams = new URLSearchParams([
-				['_data', '/refresh-content'],
+				['_data', 'routes/_content/refresh-content'],
 			]);
 
 			// Set request options to our instance in fly.dev
 			const options = {
 				hostname: `${process.env.FLY_APP_NAME}.fly.dev`,
 				port: 443,
-				path: `/refresh-content?${searchParams}`,
+				path: `/_content/refresh-content?${searchParams}`,
 				method: 'POST',
 				headers: {
 					auth: process.env.REFRESH_TOKEN,
